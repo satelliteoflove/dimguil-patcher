@@ -4,5 +4,5 @@ import kotlinx.serialization.Serializable
 
 typealias Address = UInt
 
-@Serializable
+@Serializable(with = PatcherRuleSerializer::class)
 data class PatcherRule(val file: String, val edits: Map<Address, List<Byte>>)

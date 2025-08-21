@@ -1,7 +1,5 @@
 package com.github.dimguilpatcher
 
-import kotlinx.serialization.builtins.ListSerializer
-import kotlinx.serialization.json.Json
 import com.github.dimguilpatcher.decoder.TextDecoderImpl
 import kotlinx.serialization.ExperimentalSerializationApi
 import java.io.File
@@ -20,8 +18,7 @@ fun main() {
 
     val sectionsResource = getResource("sections.json")
     val jsonString = String(Files.readAllBytes(sectionsResource.toURI().toPath()))
-    val metadata: List<SectionConfigData> =
-        json.decodeFromString(ListSerializer(SectionConfigDataSerializer), jsonString)
+    val metadata: List<SectionConfigData> = json.decodeFromString(jsonString)
     val units = decoder.decode(metadata)
 
     if (Paths.get(TEXT_DUMPS_PATH).notExists()) {

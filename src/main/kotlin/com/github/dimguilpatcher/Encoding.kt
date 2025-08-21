@@ -19,7 +19,7 @@ fun parseTable(tableResource: String, delimiter: Char, charset: Charset): Map<UI
     for (pair in pairs) {
         val codePoint = pair[0].hexToUInt()
         if (codePoint in table) {
-            throw RuntimeException("Code point ${"%x".format(codePoint.toInt())} has been defined multiple times.")
+            throw RuntimeException("Code point '${"%x".format(codePoint.toInt())}' has been defined multiple times.")
         }
         table += codePoint to pair[1]
     }
@@ -33,7 +33,7 @@ fun parseTableReverse(tableResource: String, delimiter: Char, charset: Charset):
     for (pair in pairs) {
         val codePoint = pair[0].hexToUInt()
         if (pair[1] in table) {
-            System.err.println("Character ${pair[1]} defined multiple times. Keeping first encoding.")
+            Log.warn("Character '${pair[1]}' has been defined multiple times. Keeping first encoding (${"%x".format(table[pair[1]]?.toInt())}).")
         } else {
             table += pair[1] to codePoint
         }

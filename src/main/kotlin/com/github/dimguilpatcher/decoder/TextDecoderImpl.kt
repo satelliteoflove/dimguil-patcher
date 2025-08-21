@@ -1,7 +1,6 @@
 package com.github.dimguilpatcher.decoder
 
 import com.github.dimguilpatcher.Config
-import com.github.dimguilpatcher.Log
 import com.github.dimguilpatcher.SectionData
 import com.github.dimguilpatcher.StringData
 import com.github.dimguilpatcher.TranslationUnit
@@ -11,34 +10,34 @@ import java.nio.file.Files
 import java.nio.file.Path
 
 class TextDecoderImpl(private val config: Config) : TextDecoder {
-    private val delimiter = '='
     private var table: Map<UInt, String> = emptyMap()
 
     override fun decode(metadata: List<SectionConfigData>): List<TranslationUnit> {
         val translationUnitTemp = mutableMapOf<String, MutableList<SectionData>>()
         for (metaElement in metadata) {
-            if (!translationUnitTemp.contains(metaElement.fileName)) {
-                translationUnitTemp[metaElement.fileName] = mutableListOf()
+            if (!translationUnitTemp.contains(metaElement.file)) {
+                translationUnitTemp[metaElement.file] = mutableListOf()
             }
-            val file = File(config.gameBinariesPath + File.separator + metaElement.fileName)
+            val file = File(config.gameBinariesPath + File.separator + metaElement.file)
             if (!file.exists()) {
                 throw IllegalArgumentException("Failed to read $file")
             }
             val bytes = Files.readAllBytes(Path.of(file.toURI()))
-            for (headerAddress in metaElement.headerAddresses) {
-                if (bytes.count().toUInt() < headerAddress) {
+            for (firstHeaderElement in metaElement.headers) {
+                val firstHeaderAddress = firstHeaderElement.address
+                if (bytes.count().toUInt() < firstHeaderAddress) {
                     throw IllegalArgumentException(
-                        "Wrong config for file \"${metaElement.fileName}$\": address 0x${
+                        "Wrong config for file \"${metaElement.file}$\": address 0x${
                             "%x".format(
-                                headerAddress
+                                firstHeaderAddress
                             )
                         } does not exist."
                     )
                 }
-                val stringHeaderAddresses = getStringHeaderAddresses(headerAddress, bytes)
-                val stringCount = stringHeaderAddresses.count()
+                val textHeaders = getHeaders(firstHeaderAddress, bytes)
+                val stringHeaderAddresses = getHeaderAddresses(firstHeaderAddress, bytes)
                 val stringDataList: List<StringData> =
-                    decodeSection(headerAddress + (stringCount * 4).toUInt(), bytes, stringCount)
+                    decodeSection(bytes, textHeaders.map { it + (firstHeaderElement.offset) })
                         .mapIndexed { index, decodedString ->
                             StringData(
                                 stringHeaderAddresses[index],
@@ -47,12 +46,9 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                                 decodedString.text
                             )
                         }
-                if (stringCount != stringDataList.count()) {
-                    Log.err("[${metaElement.fileName}][$headerAddress]: ${stringDataList.count()} decoded entries instead of $stringCount")
-                }
-                translationUnitTemp[metaElement.fileName]!!.add(
+                translationUnitTemp[metaElement.file]!!.add(
                     SectionData(
-                        ((bytes[headerAddress.toInt()].toInt() and 0xff) or (bytes[(headerAddress.toInt() + 1)].toInt() shl 8)).toUShort(),
+                        ((bytes[firstHeaderAddress.toInt()].toInt() and 0xff) or (bytes[(firstHeaderAddress.toInt() + 1)].toInt() shl 8)).toUShort(),
                         stringDataList.sumOf { it.length },
                         stringDataList
                     )
@@ -62,7 +58,7 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
         return translationUnitTemp.map { TranslationUnit(it.key, it.value) }
     }
 
-    private fun getStringHeaderAddresses(firstHeaderAddress: UInt, bytes: ByteArray): List<UInt> {
+    private fun getHeaderAddresses(firstHeaderAddress: UInt, bytes: ByteArray): List<UInt> {
         val outList = mutableListOf<UInt>()
         for (i in firstHeaderAddress.toInt()..bytes.count() step 4) {
             if (!(bytes[i + 2] == 0.toByte() && bytes[i + 3] == 0.toByte())) {
@@ -73,52 +69,75 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
         return outList
     }
 
-    private fun decodeSection(startAddress: UInt, bytes: ByteArray, stringCount: Int): List<DecodedText> {
-        val outList = mutableListOf<DecodedText>()
-        var sourceBuilder = StringBuilder()
-        var sourceLength = 0u
-        var address = startAddress
-        var skip = false
-        var currentCount = stringCount
-
-        val newString = {
-            sourceBuilder = StringBuilder()
-            address += sourceLength
-            sourceLength = 0u
-            currentCount--
-        }
-        val addDecodedChar = { byteFormat: String, encoding: UInt, bytesToAdd: UInt ->
-            val raw = byteFormat.format(encoding.toInt())
-            sourceBuilder.append(table[encoding] ?: "{$raw}")
-            sourceLength += bytesToAdd
-        }
-
-        for (i in startAddress.toInt()..<bytes.count()) {
-            if (currentCount == 0) {
+    private fun getHeaders(firstHeaderAddress: UInt, bytes: ByteArray): List<UInt> {
+        val outList = mutableListOf<UInt>()
+        for (i in firstHeaderAddress.toInt()..bytes.count() step 4) {
+            if (!(bytes[i + 2] == 0.toByte() && bytes[i + 3] == 0.toByte())) {
                 break
             }
-            if (skip) {
-                skip = false
+            val hex = (bytes[i].toUInt() and 0xffu) or ((bytes[i + 1].toUInt() shl 8) and 0xff00u)
+            outList += hex
+        }
+        return outList
+    }
+
+    private fun decodeSection(bytes: ByteArray, headers: List<UInt>): List<DecodedText> {
+        val outList = mutableListOf<DecodedText>()
+
+        for ((hIndex, header) in headers.withIndex()) {
+            val originalLength = if (hIndex + 1 < headers.count()) headers[hIndex + 1] - header else NO_LENGTH
+            val sourceBuilder = StringBuilder()
+            var calculatedLength = 0u
+            var i = header.toInt()
+            var end = false
+
+            val addDecodedChar = { byteFormat: String, encoding: UInt, bytesToAdd: UInt ->
+                val raw = byteFormat.format(encoding.toInt())
+                sourceBuilder.append(table[encoding] ?: "{$raw}")
+                calculatedLength += bytesToAdd
+                i += bytesToAdd.toInt()
+            }
+
+            if (originalLength == 1u) {
+                addDecodedChar("%02x", bytes[i].toUInt() and 0xffu, 1u)
+                outList += DecodedText(
+                    sourceBuilder.toString(),
+                    calculatedLength,
+                    header
+                )
                 continue
             }
-            when (val uByte = bytes[i].toUInt() and 0xffu) {
-                in 0xf7u..0xffu -> {
-                    val doubleByte = (bytes[i].toUInt() shl 8 or (bytes[i + 1].toUInt() and 0xffu)) and 0xffffu
-                    if (doubleByte == 0xff40u) {
-                        outList += DecodedText(
-                            sourceBuilder.toString(),
-                            sourceLength,
-                            address
-                        )
-                        sourceLength += 2u
-                        newString()
-                    } else {
-                        addDecodedChar("%04x", doubleByte, 2u)
+
+            while (!end && i < bytes.count()) {
+                when (val uByte = bytes[i].toUInt() and 0xffu) {
+                    in 0xf7u..0xffu -> {
+                        val doubleByte = (bytes[i].toUInt() shl 8 or (bytes[i+ 1].toUInt() and 0xffu)) and 0xffffu
+                        if (originalLength == NO_LENGTH && doubleByte == 0xff40u) {
+                            end = true
+                        } else if (calculatedLength == originalLength - 2u) {
+                            if (doubleByte != 0xff40u) {
+                                addDecodedChar("%04x", doubleByte, 2u)
+                            }
+                            end = true
+                        } else {
+                            addDecodedChar("%04x", doubleByte, 2u)
+                        }
                     }
-                    skip = true
+                    else -> {
+                        if (calculatedLength == originalLength - 2u) {
+                            end = true
+                        }
+                        else {
+                            addDecodedChar("%02x", uByte, 1u)
+                        }
+                    }
                 }
-                else -> {
-                    addDecodedChar("%02x", uByte, 1u)
+                if (end) {
+                    outList += DecodedText(
+                        sourceBuilder.toString(),
+                        calculatedLength,
+                        header
+                    )
                 }
             }
         }
@@ -126,8 +145,13 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
     }
 
     override fun parseTable(tableResource: String) {
-        table = com.github.dimguilpatcher.parseTable(tableResource, delimiter, Charsets.UTF_8)
+        table = com.github.dimguilpatcher.parseTable(tableResource, DELIMITER, Charsets.UTF_8)
     }
 
     data class DecodedText(val text: String, val length: UInt, val address: UInt)
+
+    companion object {
+        private const val DELIMITER = '='
+        private const val NO_LENGTH = UInt.MAX_VALUE
+    }
 }

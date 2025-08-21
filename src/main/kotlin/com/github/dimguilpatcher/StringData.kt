@@ -8,5 +8,6 @@ data class StringData(
     val stringAddress: UInt,
     val length: UInt,
     val source: String,
-    val translation: String = ""
+    val translation: String = "",
+    val addStringTerminator: Boolean? = true
 )

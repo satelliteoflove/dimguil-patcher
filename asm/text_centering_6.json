@@ -1,0 +1,11 @@
+{
+  "file": "BATTLE.BIN",
+  "edits": {
+      // Text centering
+      //      0c000824
+    "31038": "08000824",
+      // Vertical spacing
+      //      1000a897
+    "31150": "0c000824"
+  }
+}

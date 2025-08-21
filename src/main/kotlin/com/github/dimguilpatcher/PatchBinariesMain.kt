@@ -4,7 +4,6 @@ import com.github.dimguilpatcher.encoder.TextEncoderImpl
 import com.github.dimguilpatcher.patcher.BinaryPatcherImpl
 import com.github.dimguilpatcher.patcher.PatcherRule
 import kotlinx.serialization.ExperimentalSerializationApi
-import kotlinx.serialization.encodeToString
 import java.io.File
 import java.nio.file.Files
 import kotlin.io.path.Path

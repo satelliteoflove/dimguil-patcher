@@ -1,33 +1,65 @@
 [
   {
-    "fileName": "DATA06/NPC_MES1.OBJ",
-    "headerAddresses": [
-      "0"
+    "file": "DATA01/FIGHTMSG.OBJ",
+    "headers": [
+      {
+        "address": "0",
+        "offset": "0"
+      }
     ]
   },
   {
-    "fileName": "DATA06/SISETU.OBJ",
-    "headerAddresses": [
-      "0"
+    "file": "DATA01/STATUS.OBJ",
+    "headers": [
+      {
+        "address": "0",
+        "offset": "0"
+      }
     ]
   },
   {
-    "fileName": "DATA06/I_NAME_E.OBJ",
-    "headerAddresses": [
-      "0"
+    "file": "DATA06/NPC_MES1.OBJ",
+    "headers": [
+      {
+        "address": "0",
+        "offset": "0"
+      }
     ]
   },
   {
-    "fileName": "DATA06/EVENTMES.BIN",
-    "headerAddresses": [
-      "0"
+    "file": "DATA06/SISETU.OBJ",
+    "headers": [
+      {
+        "address": "0",
+        "offset": "0"
+      }
     ]
   },
   {
-    "fileName": "CB/DAT/MESSAGE.DAT",
-    "headerAddresses": [
-      "2e1", "497", "5bf", "b31", "c70", "17e3", "1846", "186c", "19a2", "1a3d", "1abd", "1b9e", "1c97", "1cea", "17db",
-      "1e0d", "1e9c", "1f2c", "1fc6", "2053", "2146", "32d1", "4c4a", "4ce3"
+    "file": "DATA06/I_NAME_E.OBJ",
+    "headers": [
+      {
+        "address": "0",
+        "offset": "0"
+      }
+    ]
+  },
+  {
+    "file": "DATA06/EVENTMES.BIN",
+    "headers": [
+      {
+        "address": "0",
+        "offset": "0"
+      }
+    ]
+  },
+  {
+    "file": "CB/DAT/MESSAGE.DAT",
+    "headers": [
+      {
+        "address": "2e1",
+        "offset": "2e1"
+      }
     ]
   }
 ]
