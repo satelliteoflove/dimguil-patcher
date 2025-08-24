@@ -1,5 +1,6 @@
 package com.github.dimguilpatcher.patcher
 
+import com.github.dimguilpatcher.json.PatcherRuleSerializer
 import kotlinx.serialization.Serializable
 
 typealias Address = UInt

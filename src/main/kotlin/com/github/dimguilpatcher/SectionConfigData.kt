@@ -1,5 +1,6 @@
 package com.github.dimguilpatcher
 
+import com.github.dimguilpatcher.json.HeaderDataSerializer
 import kotlinx.serialization.Serializable
 
 @Serializable

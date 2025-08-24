@@ -1,4 +1,4 @@
-package com.github.dimguilpatcher
+package com.github.dimguilpatcher.util
 
 object Log {
     fun info(s: String) {

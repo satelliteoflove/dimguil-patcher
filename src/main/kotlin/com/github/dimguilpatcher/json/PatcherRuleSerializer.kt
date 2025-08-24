@@ -1,5 +1,6 @@
-package com.github.dimguilpatcher.patcher
+package com.github.dimguilpatcher.json
 
+import com.github.dimguilpatcher.patcher.PatcherRule
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.builtins.MapSerializer
@@ -57,7 +58,8 @@ object PatcherRuleSerializer : KSerializer<PatcherRule> {
                 }
             }
 
-            PatcherRule(requireNotNull(file), edits
+            PatcherRule(
+                requireNotNull(file), edits
                 .mapKeys { it.key.hexToUInt() }
                 .mapValues { l ->
                     val string = l.value

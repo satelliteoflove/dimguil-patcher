@@ -1,10 +1,10 @@
 package com.github.dimguilpatcher.encoder
 
 import com.github.dimguilpatcher.Config
-import com.github.dimguilpatcher.Log
+import com.github.dimguilpatcher.util.Log
 import com.github.dimguilpatcher.StringData
 import com.github.dimguilpatcher.TranslationUnit
-import com.github.dimguilpatcher.parseTableReverse
+import com.github.dimguilpatcher.util.parseTableReverse
 import com.github.dimguilpatcher.patcher.PatcherRule
 
 class TextEncoderImpl(private val config: Config) : TextEncoder {
@@ -26,7 +26,7 @@ class TextEncoderImpl(private val config: Config) : TextEncoder {
                 newHeaderAddress += encodedString.count().toUShort()
                 usedBytes += actualLength.toUInt()
                 if (actualLength.toUInt() > stringData.length) {
-                    toLog += "Address ${stringData.stringAddress} -> length exceeded by ${actualLength - stringData.length.toInt()}"
+                    toLog += "Address ${stringData.stringAddress} -> length exceeded by ${actualLength.toUInt() - stringData.length}"
                 }
             }
             if (usedBytes > section.sectionLength) {
@@ -57,11 +57,15 @@ class TextEncoderImpl(private val config: Config) : TextEncoder {
                 '{' -> {
                     var j = 1
                     while (s[i + j] != '}') {
+                        assert(j <= HEX_SEQUENCE_MAX_LENGTH, { "Hex sequence greater than 2 bytes:\n${sd.translation}" })
                         val byte = "${s[i + j]}${s[i + j + 1]}".hexToByte()
                         res += byte
                         j += 2
                     }
                     i += j + 1
+                }
+                '}' -> {
+                    throw RuntimeException("Missing brace from hex sequence:\n${sd.translation}")
                 }
                 else -> {
                     val encoding: UInt = table["${s[i]}"] ?: throw RuntimeException("$s - Unknown character: ${s[i]}")
@@ -84,6 +88,7 @@ class TextEncoderImpl(private val config: Config) : TextEncoder {
     }
 
     companion object {
+        private const val HEX_SEQUENCE_MAX_LENGTH = 4
         private val stringTerminatorBytes = arrayOf(0xff.toByte(), 0x40)
         private val escapeSeqs = mapOf(
             '\n' to "\\n",

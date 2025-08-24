@@ -1,5 +1,6 @@
-package com.github.dimguilpatcher
+package com.github.dimguilpatcher.json
 
+import com.github.dimguilpatcher.HeaderData
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.descriptors.SerialDescriptor

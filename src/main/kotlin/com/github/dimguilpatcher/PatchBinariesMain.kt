@@ -3,6 +3,11 @@ package com.github.dimguilpatcher
 import com.github.dimguilpatcher.encoder.TextEncoderImpl
 import com.github.dimguilpatcher.patcher.BinaryPatcherImpl
 import com.github.dimguilpatcher.patcher.PatcherRule
+import com.github.dimguilpatcher.util.ASM_EDITS_PATH
+import com.github.dimguilpatcher.util.PATCHED_BINARIES_PATH
+import com.github.dimguilpatcher.util.TRANSLATIONS_PATH
+import com.github.dimguilpatcher.util.getResource
+import com.github.dimguilpatcher.util.json
 import kotlinx.serialization.ExperimentalSerializationApi
 import java.io.File
 import java.nio.file.Files
@@ -44,7 +49,7 @@ fun main() {
     for (rule in combinedRules) {
         patcher.loadNewSource(rule.key)
         patcher.applyEdits(rule.value.edits)
-        val outFile = File("$PATCHED_BINARIES_PATH${File.separator}${rule.key}")
+        val outFile = File("${PATCHED_BINARIES_PATH}${File.separator}${rule.key}")
         Files.createDirectories(outFile.parentFile.toPath())
         outFile.writeBytes(patcher.result())
     }

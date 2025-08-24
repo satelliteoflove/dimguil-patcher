@@ -1,4 +1,4 @@
-package com.github.dimguilpatcher
+package com.github.dimguilpatcher.util
 
 import java.net.URL
 import java.nio.charset.Charset

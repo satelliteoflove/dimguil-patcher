@@ -1,4 +1,4 @@
-package com.github.dimguilpatcher
+package com.github.dimguilpatcher.util
 
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json

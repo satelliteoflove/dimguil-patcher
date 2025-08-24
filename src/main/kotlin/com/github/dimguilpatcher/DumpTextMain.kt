@@ -1,6 +1,9 @@
 package com.github.dimguilpatcher
 
 import com.github.dimguilpatcher.decoder.TextDecoderImpl
+import com.github.dimguilpatcher.util.TEXT_DUMPS_PATH
+import com.github.dimguilpatcher.util.getResource
+import com.github.dimguilpatcher.util.json
 import kotlinx.serialization.ExperimentalSerializationApi
 import java.io.File
 import java.nio.file.Files

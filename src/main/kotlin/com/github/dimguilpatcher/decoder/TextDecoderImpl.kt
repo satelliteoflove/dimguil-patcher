@@ -43,7 +43,8 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                                 stringHeaderAddresses[index],
                                 decodedString.address,
                                 decodedString.length,
-                                decodedString.text
+                                decodedString.text,
+                                addStringTerminator = decodedString.addTerminator
                             )
                         }
                 translationUnitTemp[metaElement.file]!!.add(
@@ -88,6 +89,7 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
             val originalLength = if (hIndex + 1 < headers.count()) headers[hIndex + 1] - header else NO_LENGTH
             val sourceBuilder = StringBuilder()
             var calculatedLength = 0u
+            var addTerminator = true
             var i = header.toInt()
             var end = false
 
@@ -103,7 +105,8 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                 outList += DecodedText(
                     sourceBuilder.toString(),
                     calculatedLength,
-                    header
+                    header,
+                    false
                 )
                 continue
             }
@@ -115,28 +118,25 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                         if (originalLength == NO_LENGTH && doubleByte == 0xff40u) {
                             end = true
                         } else if (calculatedLength == originalLength - 2u) {
+                            end = true
                             if (doubleByte != 0xff40u) {
                                 addDecodedChar("%04x", doubleByte, 2u)
+                                addTerminator = false
                             }
-                            end = true
                         } else {
                             addDecodedChar("%04x", doubleByte, 2u)
                         }
                     }
                     else -> {
-                        if (calculatedLength == originalLength - 2u) {
-                            end = true
-                        }
-                        else {
-                            addDecodedChar("%02x", uByte, 1u)
-                        }
+                        addDecodedChar("%02x", uByte, 1u)
                     }
                 }
                 if (end) {
                     outList += DecodedText(
                         sourceBuilder.toString(),
                         calculatedLength,
-                        header
+                        header,
+                        addTerminator
                     )
                 }
             }
@@ -145,10 +145,10 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
     }
 
     override fun parseTable(tableResource: String) {
-        table = com.github.dimguilpatcher.parseTable(tableResource, DELIMITER, Charsets.UTF_8)
+        table = com.github.dimguilpatcher.util.parseTable(tableResource, DELIMITER, Charsets.UTF_8)
     }
 
-    data class DecodedText(val text: String, val length: UInt, val address: UInt)
+    data class DecodedText(val text: String, val length: UInt, val address: UInt, val addTerminator: Boolean)
 
     companion object {
         private const val DELIMITER = '='

@@ -1,5 +1,7 @@
 package com.github.dimguilpatcher
 
+import com.github.dimguilpatcher.util.parseTable
+import com.github.dimguilpatcher.util.parseTableReverse
 import java.nio.charset.Charset
 
 fun main() {
