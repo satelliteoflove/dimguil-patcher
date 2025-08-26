@@ -20,7 +20,7 @@ class TextEncoderImpl(private val config: Config) : TextEncoder {
 
             for (stringData in section.strings) {
                 val encodedString = encodeString(stringData)
-                tempResult += newHeaderAddress to encodedString
+                tempResult += (newHeaderAddress + section.strings.first().headerAddress) to encodedString
                 tempResult += stringData.headerAddress to listOf((newHeaderAddress and 0xffu).toByte(), (newHeaderAddress shr 8 and 0xffu).toByte())
                 val actualLength = encodedString.count() - 2
                 newHeaderAddress += encodedString.count().toUShort()

@@ -37,7 +37,7 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                 val textHeaders = getHeaders(firstHeaderAddress, bytes)
                 val stringHeaderAddresses = getHeaderAddresses(firstHeaderAddress, bytes)
                 val stringDataList: List<StringData> =
-                    decodeSection(bytes, textHeaders.map { it + (firstHeaderElement.offset) })
+                    decodeSection(bytes, textHeaders.map { it + firstHeaderElement.offset })
                         .mapIndexed { index, decodedString ->
                             StringData(
                                 stringHeaderAddresses[index],

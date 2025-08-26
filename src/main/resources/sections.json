@@ -1,65 +1,110 @@
 [
-  {
-    "file": "DATA01/FIGHTMSG.OBJ",
-    "headers": [
-      {
-        "address": "0",
-        "offset": "0"
-      }
-    ]
-  },
-  {
-    "file": "DATA01/STATUS.OBJ",
-    "headers": [
-      {
-        "address": "0",
-        "offset": "0"
-      }
-    ]
-  },
-  {
-    "file": "DATA06/NPC_MES1.OBJ",
-    "headers": [
-      {
-        "address": "0",
-        "offset": "0"
-      }
-    ]
-  },
-  {
-    "file": "DATA06/SISETU.OBJ",
-    "headers": [
-      {
-        "address": "0",
-        "offset": "0"
-      }
-    ]
-  },
-  {
-    "file": "DATA06/I_NAME_E.OBJ",
-    "headers": [
-      {
-        "address": "0",
-        "offset": "0"
-      }
-    ]
-  },
-  {
-    "file": "DATA06/EVENTMES.BIN",
-    "headers": [
-      {
-        "address": "0",
-        "offset": "0"
-      }
-    ]
-  },
-  {
-    "file": "CB/DAT/MESSAGE.DAT",
-    "headers": [
-      {
-        "address": "2e1",
-        "offset": "2e1"
-      }
-    ]
-  }
+    {
+        "file": "DATA01/FIGHTMSG.OBJ",
+        "headers": [
+            {
+                "address": "0",
+                "offset": "0"
+            }
+        ]
+    },
+    {
+        "file": "DATA01/STATUS.OBJ",
+        "headers": [
+            {
+                "address": "0",
+                "offset": "0"
+            }
+        ]
+    },
+    {
+        "file": "DATA06/NPC_MES1.OBJ",
+        "headers": [
+            {
+                "address": "0",
+                "offset": "0"
+            }
+        ]
+    },
+    {
+        "file": "DATA06/NPC_MES2.OBJ",
+        "headers": [
+            {
+                "address": "0",
+                "offset": "0"
+            }
+        ]
+    },
+    {
+        "file": "DATA06/NPC_MES3.OBJ",
+        "headers": [
+            {
+                "address": "0",
+                "offset": "0"
+            }
+        ]
+    },
+    {
+        "file": "DATA06/NPC_MES4.OBJ",
+        "headers": [
+            {
+                "address": "0",
+                "offset": "0"
+            }
+        ]
+    },
+    {
+        "file": "DATA06/NPC_MES5.OBJ",
+        "headers": [
+            {
+                "address": "0",
+                "offset": "0"
+            }
+        ]
+    },
+    {
+        "file": "DATA06/SISETU.OBJ",
+        "headers": [
+            {
+                "address": "0",
+                "offset": "0"
+            }
+        ]
+    },
+    {
+        "file": "DATA06/I_NAME_E.OBJ",
+        "headers": [
+            {
+                "address": "0",
+                "offset": "0"
+            }
+        ]
+    },
+    {
+        "file": "DATA06/EVENTMES.BIN",
+        "headers": [
+            {
+                "address": "0",
+                "offset": "0"
+            }
+        ]
+    },
+    {
+        "file": "CB/DAT/MESSAGE.DAT",
+        "headers": [
+            {
+                "address": "2e1",
+                "offset": "2e1"
+            }
+        ]
+    },
+    {
+        "file": "CB/DAT/ITEM_CA.DAT",
+        "headers": [
+            {
+                "address": "163d",
+                "offset": "163d"
+            }
+        ]
+    }
 ]
