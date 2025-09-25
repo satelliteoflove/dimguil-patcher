@@ -5,5 +5,7 @@ import com.github.dimguilpatcher.WithEncodingTable
 import com.github.dimguilpatcher.patcher.PatcherRule
 
 interface TextEncoder : WithEncodingTable {
-    fun encode(unit: TranslationUnit): PatcherRule
+    fun encodeUnit(unit: TranslationUnit): PatcherRule
+
+    fun encodePlainString(s: String): List<Byte>
 }

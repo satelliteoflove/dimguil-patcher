@@ -7,4 +7,4 @@ import kotlinx.serialization.Serializable
 data class SectionConfigData(val file: String, val headers: List<HeaderData>)
 
 @Serializable(with = HeaderDataSerializer::class)
-data class HeaderData(val address: UInt, val offset: UInt)
+data class HeaderData(val address: UInt)

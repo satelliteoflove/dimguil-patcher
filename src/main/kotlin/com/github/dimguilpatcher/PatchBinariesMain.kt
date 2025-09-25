@@ -4,7 +4,6 @@ import com.github.dimguilpatcher.encoder.TextEncoderImpl
 import com.github.dimguilpatcher.patcher.BinaryPatcherImpl
 import com.github.dimguilpatcher.patcher.PatcherRule
 import com.github.dimguilpatcher.util.ASM_EDITS_PATH
-import com.github.dimguilpatcher.util.PATCHED_BINARIES_PATH
 import com.github.dimguilpatcher.util.TRANSLATIONS_PATH
 import com.github.dimguilpatcher.util.getResource
 import com.github.dimguilpatcher.util.json
@@ -12,8 +11,8 @@ import kotlinx.serialization.ExperimentalSerializationApi
 import java.io.File
 import java.nio.file.Files
 import kotlin.io.path.Path
-import kotlin.io.path.createDirectories
-import kotlin.io.path.notExists
+import kotlin.io.path.exists
+import kotlin.io.path.pathString
 import kotlin.io.path.toPath
 
 @OptIn(ExperimentalSerializationApi::class)
@@ -25,12 +24,12 @@ fun main() {
         .listFiles { it.extension == "json" }
         ?.map { json.decodeFromString<PatcherRule>(String(it.readBytes())) }
 
-    val encoder = TextEncoderImpl(config)
+    val encoder = TextEncoderImpl()
     encoder.parseTable("dimguil.tbl")
     val translationRules: List<PatcherRule> = File(TRANSLATIONS_PATH)
         .listFiles { it.extension == "json" }!!
         .map { json.decodeFromString<TranslationUnit>(String(it.readBytes())) }
-        .map { encoder.encode(it) }
+        .map { encoder.encodeUnit(it) }
 
     val allRules = translationRules.toMutableList()
     if (asmRules != null) {
@@ -42,14 +41,12 @@ fun main() {
         .mapValues { PatcherRule(it.key, it.value) }
 
     val patcher = BinaryPatcherImpl(config)
-    val outPath = Path(PATCHED_BINARIES_PATH)
-    if (outPath.notExists()) {
-        outPath.createDirectories()
-    }
+    val outPath = Path(config.targetBinariesPath)
+    assert(outPath.exists())
     for (rule in combinedRules) {
         patcher.loadNewSource(rule.key)
         patcher.applyEdits(rule.value.edits)
-        val outFile = File("${PATCHED_BINARIES_PATH}${File.separator}${rule.key}")
+        val outFile = File("${outPath.pathString}${File.separator}${rule.key}")
         Files.createDirectories(outFile.parentFile.toPath())
         outFile.writeBytes(patcher.result())
     }

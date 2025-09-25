@@ -1,32 +1,34 @@
 package com.github.dimguilpatcher.encoder
 
-import com.github.dimguilpatcher.Config
 import com.github.dimguilpatcher.util.Log
 import com.github.dimguilpatcher.StringData
 import com.github.dimguilpatcher.TranslationUnit
 import com.github.dimguilpatcher.util.parseTableReverse
 import com.github.dimguilpatcher.patcher.PatcherRule
 
-class TextEncoderImpl(private val config: Config) : TextEncoder {
+class TextEncoderImpl() : TextEncoder {
     private var table: Map<String, UInt> = emptyMap()
 
-    override fun encode(unit: TranslationUnit): PatcherRule {
+    override fun encodeUnit(unit: TranslationUnit): PatcherRule {
         val result = mutableMapOf<UInt, List<Byte>>()
         for (section in unit.sections) {
             val tempResult = mutableMapOf<UInt, List<Byte>>()
             var usedBytes = 0u
+            var currentHeaderAddress = section.firstHeaderAddress.toUInt()
             var newHeaderAddress = section.firstHeader.toUInt()
             val toLog = mutableListOf<String>()
 
             for (stringData in section.strings) {
-                val encodedString = encodeString(stringData)
-                tempResult += (newHeaderAddress + section.strings.first().headerAddress) to encodedString
-                tempResult += stringData.headerAddress to listOf((newHeaderAddress and 0xffu).toByte(), (newHeaderAddress shr 8 and 0xffu).toByte())
+                val encodedString = encodeStringData(stringData)
+                val newStringAddress = newHeaderAddress + section.firstHeaderAddress
+                tempResult += newStringAddress to encodedString
+                tempResult += currentHeaderAddress to listOf((newHeaderAddress and 0xffu).toByte(), (newHeaderAddress shr 8 and 0xffu).toByte())
+                currentHeaderAddress += 4u
                 val actualLength = encodedString.count() - 2
                 newHeaderAddress += encodedString.count().toUShort()
                 usedBytes += actualLength.toUInt()
                 if (actualLength.toUInt() > stringData.length) {
-                    toLog += "Address ${stringData.stringAddress} -> length exceeded by ${actualLength.toUInt() - stringData.length}"
+                    toLog += "String at header $currentHeaderAddress -> length exceeded by ${actualLength.toUInt() - stringData.length}"
                 }
             }
             if (usedBytes > section.sectionLength) {
@@ -40,8 +42,15 @@ class TextEncoderImpl(private val config: Config) : TextEncoder {
         return PatcherRule(unit.file, result)
     }
 
-    private fun encodeString(sd: StringData): List<Byte> {
-        val s = sd.translation.ifEmpty { sd.source }
+    private fun encodeStringData(sd: StringData): List<Byte> {
+        val encodedString = encodePlainString(sd.translation.ifEmpty { sd.source }).toMutableList()
+        if (sd.addStringTerminator ?: true) {
+            stringTerminatorBytes.forEach { encodedString += it }
+        }
+        return encodedString
+    }
+
+    override fun encodePlainString(s: String): List<Byte> {
         val res = mutableListOf<Byte>()
         var i = 0
         while (i < s.length) {
@@ -57,7 +66,7 @@ class TextEncoderImpl(private val config: Config) : TextEncoder {
                 '{' -> {
                     var j = 1
                     while (s[i + j] != '}') {
-                        assert(j <= HEX_SEQUENCE_MAX_LENGTH, { "Hex sequence greater than 2 bytes:\n${sd.translation}" })
+                        assert(j <= HEX_SEQUENCE_MAX_LENGTH) { "Hex sequence greater than 2 bytes:\n${s}" }
                         val byte = "${s[i + j]}${s[i + j + 1]}".hexToByte()
                         res += byte
                         j += 2
@@ -65,7 +74,7 @@ class TextEncoderImpl(private val config: Config) : TextEncoder {
                     i += j + 1
                 }
                 '}' -> {
-                    throw RuntimeException("Missing brace from hex sequence:\n${sd.translation}")
+                    throw RuntimeException("Missing brace from hex sequence:\n${s}")
                 }
                 else -> {
                     val encoding: UInt = table["${s[i]}"] ?: throw RuntimeException("$s - Unknown character: ${s[i]}")
@@ -76,9 +85,6 @@ class TextEncoderImpl(private val config: Config) : TextEncoder {
                     i++
                 }
             }
-        }
-        if (sd.addStringTerminator ?: true) {
-            stringTerminatorBytes.forEach { res += it }
         }
         return res
     }

@@ -7,7 +7,7 @@ class BinaryPatcherImpl(private val config: Config) : BinaryPatcher {
     private var source: ByteArray = byteArrayOf()
 
     override fun loadNewSource(file: String) {
-        val f = File("${config.gameBinariesPath}${File.separator}$file")
+        val f = File("${config.sourceBinariesPath}${File.separator}$file")
         if (!f.exists()) {
             throw IllegalArgumentException("Failed to load $file")
         }

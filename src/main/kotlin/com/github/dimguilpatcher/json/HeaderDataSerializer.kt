@@ -15,7 +15,6 @@ import kotlinx.serialization.encoding.encodeStructure
 object HeaderDataSerializer : KSerializer<HeaderData> {
     override val descriptor: SerialDescriptor = buildClassSerialDescriptor("HeaderData") {
         element<String>("address")
-        element<String>("offset")
     }
 
     override fun serialize(encoder: Encoder, value: HeaderData) {
@@ -24,30 +23,24 @@ object HeaderDataSerializer : KSerializer<HeaderData> {
                 descriptor,
                 0,
                 "%x".format(value.address))
-            encodeStringElement(
-                descriptor,
-                1,
-                "%x".format(value.offset))
         }
     }
 
     override fun deserialize(decoder: Decoder): HeaderData {
         return decoder.decodeStructure(descriptor) {
             var address: String? = null
-            var offset: String? = null
 
             loop@ while (true) {
                 when (val index = decodeElementIndex(descriptor)) {
                     DECODE_DONE -> break@loop
 
                     0 -> address = decodeStringElement(descriptor, 0)
-                    1 -> offset = decodeStringElement(descriptor, 1)
 
                     else -> throw SerializationException("Unexpected index $index")
                 }
             }
 
-            HeaderData(requireNotNull(address).hexToUInt(), requireNotNull(offset).hexToUInt())
+            HeaderData(requireNotNull(address).hexToUInt())
         }
     }
 }

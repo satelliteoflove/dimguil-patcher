@@ -9,7 +9,6 @@ const val OUT_PATH = "out"
 const val ASM_EDITS_PATH = "asm"
 const val TRANSLATIONS_PATH = "translations"
 val TEXT_DUMPS_PATH = OUT_PATH + File.separator + "dumps"
-val PATCHED_BINARIES_PATH = OUT_PATH + File.separator + "patched"
 
 @OptIn(ExperimentalSerializationApi::class)
 val json = Json {

@@ -18,13 +18,13 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
             if (!translationUnitTemp.contains(metaElement.file)) {
                 translationUnitTemp[metaElement.file] = mutableListOf()
             }
-            val file = File(config.gameBinariesPath + File.separator + metaElement.file)
+            val file = File(config.sourceBinariesPath + File.separator + metaElement.file)
             if (!file.exists()) {
                 throw IllegalArgumentException("Failed to read $file")
             }
             val bytes = Files.readAllBytes(Path.of(file.toURI()))
-            for (firstHeaderElement in metaElement.headers) {
-                val firstHeaderAddress = firstHeaderElement.address
+            for (headerData in metaElement.headers) {
+                val firstHeaderAddress = headerData.address
                 if (bytes.count().toUInt() < firstHeaderAddress) {
                     throw IllegalArgumentException(
                         "Wrong config for file \"${metaElement.file}$\": address 0x${
@@ -35,13 +35,10 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                     )
                 }
                 val textHeaders = getHeaders(firstHeaderAddress, bytes)
-                val stringHeaderAddresses = getHeaderAddresses(firstHeaderAddress, bytes)
                 val stringDataList: List<StringData> =
-                    decodeSection(bytes, textHeaders.map { it + firstHeaderElement.offset })
-                        .mapIndexed { index, decodedString ->
+                    decodeSection(bytes, textHeaders.map { it + firstHeaderAddress })
+                        .map { decodedString ->
                             StringData(
-                                stringHeaderAddresses[index],
-                                decodedString.address,
                                 decodedString.length,
                                 decodedString.text,
                                 addStringTerminator = decodedString.addTerminator
@@ -49,6 +46,7 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                         }
                 translationUnitTemp[metaElement.file]!!.add(
                     SectionData(
+                        firstHeaderAddress.toUShort(),
                         ((bytes[firstHeaderAddress.toInt()].toInt() and 0xff) or (bytes[(firstHeaderAddress.toInt() + 1)].toInt() shl 8)).toUShort(),
                         stringDataList.sumOf { it.length },
                         stringDataList
@@ -57,17 +55,6 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
             }
         }
         return translationUnitTemp.map { TranslationUnit(it.key, it.value) }
-    }
-
-    private fun getHeaderAddresses(firstHeaderAddress: UInt, bytes: ByteArray): List<UInt> {
-        val outList = mutableListOf<UInt>()
-        for (i in firstHeaderAddress.toInt()..bytes.count() step 4) {
-            if (!(bytes[i + 2] == 0.toByte() && bytes[i + 3] == 0.toByte())) {
-                break
-            }
-            outList += i.toUInt()
-        }
-        return outList
     }
 
     private fun getHeaders(firstHeaderAddress: UInt, bytes: ByteArray): List<UInt> {
@@ -101,7 +88,7 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
             }
 
             if (originalLength == 1u) {
-                addDecodedChar("%02x", bytes[i].toUInt() and 0xffu, 1u)
+                addDecodedChar(ONE_BYTE_FORMATTER, bytes[i].toUInt() and 0xffu, 1u)
                 outList += DecodedText(
                     sourceBuilder.toString(),
                     calculatedLength,
@@ -120,15 +107,15 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                         } else if (calculatedLength == originalLength - 2u) {
                             end = true
                             if (doubleByte != 0xff40u) {
-                                addDecodedChar("%04x", doubleByte, 2u)
+                                addDecodedChar(TWO_BYTES_FORMATTER, doubleByte, 2u)
                                 addTerminator = false
                             }
                         } else {
-                            addDecodedChar("%04x", doubleByte, 2u)
+                            addDecodedChar(TWO_BYTES_FORMATTER, doubleByte, 2u)
                         }
                     }
                     else -> {
-                        addDecodedChar("%02x", uByte, 1u)
+                        addDecodedChar(ONE_BYTE_FORMATTER, uByte, 1u)
                     }
                 }
                 if (end) {
@@ -153,5 +140,7 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
     companion object {
         private const val DELIMITER = '='
         private const val NO_LENGTH = UInt.MAX_VALUE
+        private const val TWO_BYTES_FORMATTER = "%04x"
+        private const val ONE_BYTE_FORMATTER = "%02x"
     }
 }
