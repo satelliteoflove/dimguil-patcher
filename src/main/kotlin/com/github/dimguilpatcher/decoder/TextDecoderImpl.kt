@@ -27,7 +27,7 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                 val firstHeaderAddress = headerData.address
                 if (bytes.count().toUInt() < firstHeaderAddress) {
                     throw IllegalArgumentException(
-                        "Wrong config for file \"${metaElement.file}$\": address 0x${
+                        "Wrong config for file \"${metaElement.file}\": address 0x${
                             "%x".format(
                                 firstHeaderAddress
                             )
@@ -46,18 +46,19 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                         }
                 translationUnitTemp[metaElement.file]!!.add(
                     SectionData(
-                        firstHeaderAddress.toUShort(),
+                        firstHeaderAddress,
                         ((bytes[firstHeaderAddress.toInt()].toInt() and 0xff) or (bytes[(firstHeaderAddress.toInt() + 1)].toInt() shl 8)).toUShort(),
                         stringDataList.sumOf { it.length },
+                        compress = false,
                         stringDataList
                     )
                 )
             }
         }
-        return translationUnitTemp.map { TranslationUnit(it.key, it.value) }
+        return translationUnitTemp.map { TranslationUnit(it.key, sections = it.value) }
     }
 
-    private fun getHeaders(firstHeaderAddress: UInt, bytes: ByteArray): List<UInt> {
+    private fun getHeaders(firstHeaderAddress: ULong, bytes: ByteArray): List<UInt> {
         val outList = mutableListOf<UInt>()
         for (i in firstHeaderAddress.toInt()..bytes.count() step 4) {
             if (!(bytes[i + 2] == 0.toByte() && bytes[i + 3] == 0.toByte())) {
@@ -69,7 +70,7 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
         return outList
     }
 
-    private fun decodeSection(bytes: ByteArray, headers: List<UInt>): List<DecodedText> {
+    private fun decodeSection(bytes: ByteArray, headers: List<ULong>): List<DecodedText> {
         val outList = mutableListOf<DecodedText>()
 
         for ((hIndex, header) in headers.withIndex()) {
@@ -87,7 +88,7 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                 i += bytesToAdd.toInt()
             }
 
-            if (originalLength == 1u) {
+            if (originalLength == 1uL) {
                 addDecodedChar(ONE_BYTE_FORMATTER, bytes[i].toUInt() and 0xffu, 1u)
                 outList += DecodedText(
                     sourceBuilder.toString(),
@@ -101,10 +102,10 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
             while (!end && i < bytes.count()) {
                 when (val uByte = bytes[i].toUInt() and 0xffu) {
                     in 0xf7u..0xffu -> {
-                        val doubleByte = (bytes[i].toUInt() shl 8 or (bytes[i+ 1].toUInt() and 0xffu)) and 0xffffu
+                        val doubleByte = (bytes[i].toUInt() shl 8 or (bytes[i + 1].toUInt() and 0xffu)) and 0xffffu
                         if (originalLength == NO_LENGTH && doubleByte == 0xff40u) {
                             end = true
-                        } else if (calculatedLength == originalLength - 2u) {
+                        } else if (calculatedLength.toULong() == originalLength - 2u) {
                             end = true
                             if (doubleByte != 0xff40u) {
                                 addDecodedChar(TWO_BYTES_FORMATTER, doubleByte, 2u)
@@ -114,6 +115,7 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
                             addDecodedChar(TWO_BYTES_FORMATTER, doubleByte, 2u)
                         }
                     }
+
                     else -> {
                         addDecodedChar(ONE_BYTE_FORMATTER, uByte, 1u)
                     }
@@ -135,11 +137,11 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
         table = com.github.dimguilpatcher.util.parseTable(tableResource, DELIMITER, Charsets.UTF_8)
     }
 
-    data class DecodedText(val text: String, val length: UInt, val address: UInt, val addTerminator: Boolean)
+    data class DecodedText(val text: String, val length: UInt, val address: ULong, val addTerminator: Boolean)
 
     companion object {
         private const val DELIMITER = '='
-        private const val NO_LENGTH = UInt.MAX_VALUE
+        private const val NO_LENGTH = ULong.MAX_VALUE
         private const val TWO_BYTES_FORMATTER = "%04x"
         private const val ONE_BYTE_FORMATTER = "%02x"
     }

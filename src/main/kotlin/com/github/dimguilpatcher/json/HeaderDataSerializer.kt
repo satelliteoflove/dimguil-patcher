@@ -22,7 +22,8 @@ object HeaderDataSerializer : KSerializer<HeaderData> {
             encodeStringElement(
                 descriptor,
                 0,
-                "%x".format(value.address))
+                "%x".format(value.address)
+            )
         }
     }
 
@@ -40,7 +41,7 @@ object HeaderDataSerializer : KSerializer<HeaderData> {
                 }
             }
 
-            HeaderData(requireNotNull(address).hexToUInt())
+            HeaderData(requireNotNull(address).hexToULong())
         }
     }
 }

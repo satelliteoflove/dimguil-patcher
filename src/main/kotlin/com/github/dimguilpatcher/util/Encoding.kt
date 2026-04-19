@@ -5,7 +5,7 @@ import java.nio.charset.Charset
 import java.nio.file.Files
 import java.nio.file.Path
 
-private fun getTablePairs(file: URL, delimiter: Char, charset: Charset): List<List<String>> {
+fun getTablePairs(file: URL, delimiter: Char, charset: Charset): List<List<String>> {
     return Files.readAllLines(Path.of(file.toURI()), charset)
         .filter { it.isNotEmpty() }
         .map { it.split(delimiter, limit = 2) }
@@ -26,14 +26,20 @@ fun parseTable(tableResource: String, delimiter: Char, charset: Charset): Map<UI
     return table
 }
 
-fun parseTableReverse(tableResource: String, delimiter: Char, charset: Charset): Map<String, UInt> {
+fun parseTableInverse(tableResource: String, delimiter: Char, charset: Charset): Map<String, UInt> {
     val file: URL = getResource(tableResource)
     val pairs = getTablePairs(file, delimiter, charset)
     val table = mutableMapOf<String, UInt>()
     for (pair in pairs) {
         val codePoint = pair[0].hexToUInt()
         if (pair[1] in table) {
-            Log.warn("Character '${pair[1]}' has been defined multiple times. Keeping first encoding (${"%x".format(table[pair[1]]?.toInt())}).")
+            Log.warn(
+                "Character '${pair[1]}' has been defined multiple times. Keeping first encoding (${
+                    "%x".format(
+                        table[pair[1]]?.toInt()
+                    )
+                })."
+            )
         } else {
             table += pair[1] to codePoint
         }

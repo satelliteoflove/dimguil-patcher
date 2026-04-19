@@ -38,13 +38,13 @@ object PatcherRuleSerializer : KSerializer<PatcherRule> {
                             sb.append("%02x".format(byte))
                         }
                         sb.toString()
-                    } )
+                    })
         }
     }
 
     override fun deserialize(decoder: Decoder): PatcherRule {
         return decoder.decodeStructure(descriptor) {
-            var file : String? = null
+            var file: String? = null
             var edits: Map<String, String> = emptyMap()
 
             loop@ while (true) {
@@ -52,7 +52,11 @@ object PatcherRuleSerializer : KSerializer<PatcherRule> {
                     DECODE_DONE -> break@loop
 
                     0 -> file = decodeStringElement(descriptor, 0)
-                    1 -> edits = decodeSerializableElement(descriptor, 1, MapSerializer(String.serializer(), String.serializer()))
+                    1 -> edits = decodeSerializableElement(
+                        descriptor,
+                        1,
+                        MapSerializer(String.serializer(), String.serializer())
+                    )
 
                     else -> throw SerializationException("Unexpected index $index")
                 }
@@ -60,21 +64,21 @@ object PatcherRuleSerializer : KSerializer<PatcherRule> {
 
             PatcherRule(
                 requireNotNull(file), edits
-                .mapKeys { it.key.hexToUInt() }
-                .mapValues { l ->
-                    val string = l.value
-                    val bytes = mutableListOf<Byte>()
-                    var i = 0
-                    while (i < string.length) {
-                        if (string[i] != ' ' && string[i + 1] != ' ') {
-                            bytes += "${string[i]}${string[i + 1]}".hexToByte()
-                            i += 2
-                        } else {
-                            i += 1
+                    .mapKeys { it.key.hexToULong() }
+                    .mapValues { l ->
+                        val string = l.value
+                        val bytes = mutableListOf<Byte>()
+                        var i = 0
+                        while (i < string.length) {
+                            if (string[i] != ' ' && string[i + 1] != ' ') {
+                                bytes += "${string[i]}${string[i + 1]}".hexToByte()
+                                i += 2
+                            } else {
+                                i += 1
+                            }
                         }
-                    }
-                    bytes
-                })
+                        bytes
+                    })
         }
     }
 }

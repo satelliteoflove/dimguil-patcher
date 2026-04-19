@@ -136,10 +136,105 @@
         ]
     },
     {
+        "file": "DATA07/ITEM.DAT",
+        "headers": [
+            {
+                "address": "5c0c01"
+            },
+            {
+                "address": "5c0d97"
+            },
+            {
+                "address": "5c0eaa"
+            },
+            {
+                "address": "5c1023"
+            },
+            {
+                "address": "5c11bf"
+            },
+            {
+                "address": "5c234a"
+            },
+            {
+                "address": "5c3cc3"
+            }
+        ]
+    },
+    {
         "file": "CB/DAT/MESSAGE.DAT",
         "headers": [
             {
                 "address": "2e1"
+            },
+            {
+                "address": "497"
+            },
+            {
+                "address": "5bf"
+            },
+            {
+                "address": "b31"
+            },
+            {
+                "address": "c70"
+            },
+            {
+                "address": "17e3"
+            },
+            {
+                "address": "1846"
+            },
+            {
+                "address": "186c"
+            },
+            {
+                "address": "19a2"
+            },
+            {
+                "address": "1a3d"
+            },
+            {
+                "address": "1abd"
+            },
+            {
+                "address": "1b9e"
+            },
+            {
+                "address": "1c97"
+            },
+            {
+                "address": "1cea"
+            },
+            {
+                "address": "1d7b"
+            },
+            {
+                "address": "1e0d"
+            },
+            {
+                "address": "1e9c"
+            },
+            {
+                "address": "1f2c"
+            },
+            {
+                "address": "1fc6"
+            },
+            {
+                "address": "2053"
+            },
+            {
+                "address": "2146"
+            },
+            {
+                "address": "32d1"
+            },
+            {
+                "address": "4c4a"
+            },
+            {
+                "address": "4ce3"
             }
         ]
     },
