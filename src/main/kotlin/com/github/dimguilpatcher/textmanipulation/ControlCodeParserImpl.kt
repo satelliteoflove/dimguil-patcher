@@ -1,12 +1,11 @@
 package com.github.dimguilpatcher.textmanipulation
 
 import com.github.dimguilpatcher.util.Log
-import com.github.dimguilpatcher.util.getResource
 import com.github.dimguilpatcher.util.getTablePairs
-import java.net.URL
+import java.nio.file.Path
 
-class ControlCodeParserImpl(codesPath: String) : ControlCodeParser {
-    private val codes: Map<String, String> = readTable(codesPath)
+class ControlCodeParserImpl(tablePath: Path) : ControlCodeParser {
+    private val codes: Map<String, String> = readTable(tablePath)
 
     override fun parse(s: String, start: Int): List<Byte> {
         val end = findEndOfCode(s, start)
@@ -37,9 +36,8 @@ class ControlCodeParserImpl(codesPath: String) : ControlCodeParser {
     }
 
     private companion object {
-        fun readTable(dteTableResource: String): Map<String, String> {
-            val file: URL = getResource(dteTableResource)
-            val pairs = getTablePairs(file, '=', Charsets.UTF_8)
+        fun readTable(dteTableResource: Path): Map<String, String> {
+            val pairs = getTablePairs(dteTableResource, '=', Charsets.UTF_8)
             val outTable: Map<String, String> = pairs
                 .associate { it[0] to it[1] }
             outTable.forEach {

@@ -47,6 +47,8 @@ bin/
 ### Misc
 
 edits/
+rips/
+tools/
 translations/
 config.json
 *.obj

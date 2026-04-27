@@ -1,17 +1,18 @@
 package com.github.dimguilpatcher.patcher
 
-import com.github.dimguilpatcher.Config
 import com.github.dimguilpatcher.util.Log
-import java.io.File
+import java.nio.file.Path
+import kotlin.io.path.notExists
+import kotlin.io.path.readBytes
 
-class BinaryPatcherImpl(private val config: Config) : BinaryPatcher {
+class BinaryPatcherImpl(private val cleanSourcePath: Path) : BinaryPatcher {
     private var source: MutableList<Byte> = mutableListOf()
     private var sourceName: String = ""
     private var bytesAdded: Int = 0
 
     override fun loadNewSource(file: String) {
-        val f = File("${config.sourceBinariesPath}${File.separator}$file")
-        if (!f.exists()) {
+        val f = cleanSourcePath.resolve(file)
+        if (f.notExists()) {
             throw IllegalArgumentException("Failed to load $file")
         }
         source = f.readBytes().toMutableList()

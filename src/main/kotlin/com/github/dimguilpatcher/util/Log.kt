@@ -10,6 +10,6 @@ object Log {
     }
 
     fun err(s: String) {
-        System.err.println("[ERROR] $s")
+        println("[ERROR] $s")
     }
 }

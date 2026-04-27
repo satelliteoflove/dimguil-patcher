@@ -1,12 +1,11 @@
 package com.github.dimguilpatcher.textmanipulation
 
 import com.github.dimguilpatcher.util.Log
-import com.github.dimguilpatcher.util.getResource
 import com.github.dimguilpatcher.util.getTablePairs
-import java.net.URL
+import java.nio.file.Path
 
-class DTECompression(dteTableResource: String) : CompressionStrategy {
-    private val dteTable: Map<String, String> = readTable(dteTableResource, seqLength = 2)
+class DigraphCompression(digraphTable: Path) : CompressionStrategy {
+    private val digraphTable: Map<String, String> = readTable(digraphTable)
 
     override fun compress(s: String): String {
         val sb = StringBuilder()
@@ -39,7 +38,7 @@ class DTECompression(dteTableResource: String) : CompressionStrategy {
                 else -> {
                     if (i + 1 <= end) {
                         val seqKey = s[i].toString() + s[i + 1]
-                        val code = dteTable[seqKey]
+                        val code = digraphTable[seqKey]
 
                         if (code != null) {
                             sb.append("{$code}")
@@ -66,18 +65,15 @@ class DTECompression(dteTableResource: String) : CompressionStrategy {
     }
 
     private companion object {
-        fun readTable(dteTableResource: String, seqLength: Int): Map<String, String> {
-            val file: URL = getResource(dteTableResource)
-            val pairs = getTablePairs(file, '=', Charsets.UTF_8)
-            val outTable: Map<String, String> = pairs
-                .filter { it[0].length == seqLength }
-                .associate { it[0] to it[1] }
+        fun readTable(tablePath: Path): Map<String, String> {
+            val pairs = getTablePairs(tablePath, '=', Charsets.UTF_8)
+            val outTable: Map<String, String> = pairs.associate { it[0] to it[1] }
             outTable.forEach {
                 if (pairs.count { p -> p[0] == it.key } > 1) {
-                    Log.err("DTE table: sequence '${it.key}' is associated to multiple encodings.")
+                    Log.err("Digraph table: sequence '${it.key}' is associated to multiple encodings.")
                 }
                 if (pairs.count { p -> p[1] == it.value } > 1) {
-                    Log.err("DTE table: encoding '${it.value}' is associated to multiple sequences.")
+                    Log.err("Digraph table: encoding '${it.value}' is associated to multiple sequences.")
                 }
             }
             return outTable

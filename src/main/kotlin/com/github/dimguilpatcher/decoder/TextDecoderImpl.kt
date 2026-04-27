@@ -1,15 +1,14 @@
 package com.github.dimguilpatcher.decoder
 
-import com.github.dimguilpatcher.Config
+import com.github.dimguilpatcher.SectionConfigData
 import com.github.dimguilpatcher.SectionData
 import com.github.dimguilpatcher.StringData
 import com.github.dimguilpatcher.TranslationUnit
-import com.github.dimguilpatcher.SectionConfigData
-import java.io.File
 import java.nio.file.Files
 import java.nio.file.Path
+import kotlin.io.path.notExists
 
-class TextDecoderImpl(private val config: Config) : TextDecoder {
+class TextDecoderImpl(private val sourcePath: Path) : TextDecoder {
     private var table: Map<UInt, String> = emptyMap()
 
     override fun decode(metadata: List<SectionConfigData>): List<TranslationUnit> {
@@ -18,11 +17,13 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
             if (!translationUnitTemp.contains(metaElement.file)) {
                 translationUnitTemp[metaElement.file] = mutableListOf()
             }
-            val file = File(config.sourceBinariesPath + File.separator + metaElement.file)
-            if (!file.exists()) {
+
+            val file = sourcePath.resolve(metaElement.file)
+            if (file.notExists()) {
                 throw IllegalArgumentException("Failed to read $file")
             }
-            val bytes = Files.readAllBytes(Path.of(file.toURI()))
+
+            val bytes = Files.readAllBytes(file)
             for (headerData in metaElement.headers) {
                 val firstHeaderAddress = headerData.address
                 if (bytes.count().toUInt() < firstHeaderAddress) {
@@ -133,8 +134,8 @@ class TextDecoderImpl(private val config: Config) : TextDecoder {
         return outList
     }
 
-    override fun parseTable(tableResource: String) {
-        table = com.github.dimguilpatcher.util.parseTable(tableResource, DELIMITER, Charsets.UTF_8)
+    override fun parseTable(tablePath: Path) {
+        table = com.github.dimguilpatcher.util.parseTable(tablePath, DELIMITER, Charsets.UTF_8)
     }
 
     data class DecodedText(val text: String, val length: UInt, val address: ULong, val addTerminator: Boolean)

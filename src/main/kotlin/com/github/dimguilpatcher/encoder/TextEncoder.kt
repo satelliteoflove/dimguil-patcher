@@ -1,11 +1,11 @@
 package com.github.dimguilpatcher.encoder
 
 import com.github.dimguilpatcher.TranslationUnit
-import com.github.dimguilpatcher.WithEncodingTable
+import com.github.dimguilpatcher.WithTable
 import com.github.dimguilpatcher.patcher.PatcherRule
 
-interface TextEncoder : WithEncodingTable {
+interface TextEncoder : WithTable {
     fun encodeUnit(unit: TranslationUnit): PatcherRule
 
-    fun encodePlainString(s: String): List<Byte>
+    fun encodePlainString(s: String, compress: Boolean): List<Byte>
 }
