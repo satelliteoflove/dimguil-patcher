@@ -1,0 +1,1976 @@
+{
+    "file": "DATA01/FIGHTMSG.OBJ",
+    "sections": [
+        {
+            "firstHeaderAddress": 0,
+            "firstHeader": 1192,
+            "sectionLength": 3928,
+            "strings": [
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Preparation",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "attacks",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "slashes at",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "stabs at",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "slices",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "cuts up",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "pierces",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "slams",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "strikes",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "beats down",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "pummels",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "chops",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "bashes",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "thrusts at",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "sweeps",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "shoots at",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "fires upon",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "wildly swings at",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "shoots at",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "bashes",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "claws",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "snaps at",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": false
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 26,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "{ff18} {ff15} {ff14}",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "{ff18} tries to hide.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "{ff18} ambushed {ff13} with {ff14}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,//NOTE could be "dispels the curse of"
+                    "source": "NA",
+                    "translation": "{ff18} dispels\n{ff11}0 {ff13}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "{ff18} fails to\ndispel {ff13}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff13} {ff15} {ff18} with {ff14}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff13} {ff15} {ff18} with {ff14}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff13} parries.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "{ff13} {ff15} {ff14}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": " {ff13} casts\n{ff16}",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "{ff13} {ff15} {ff14}.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 33,
+                    "source": "NA",
+                    "translation": "{ff13} calls for aid!\n1 monster appears.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff13} flees.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "{ff13} fails to flee.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 30,
+                    "source": "NA",
+                    "translation": "{ff13} calls for aid!\nBut no reinforcements come.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff11}0-hit!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Missed.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Missed.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "No effect.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Nothing happened.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "{ff16} emerged.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "But is discovered.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "{ff18}\n fails to cast {ff16}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "{ff18}\n fails to cast {ff16}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "But all magic is sealed.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "{ff18} is unaffected.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "{ff18} takes {ff11}1 DMG.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "{ff18} is asleep.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "{ff18} is poisoned.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff18} turned to stone!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff18} is delirious!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff18} is paralyzed.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff18} collapses\nunconscious!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "{ff18}'s head flies off!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "{ff18} is drained of\n{ff11}2 levels.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff18} is lost.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff18} is slain.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff18} is reduced to ash!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "{ff18} turns to dust.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff18} is silenced.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "{ff18} regains {ff11}1 HP.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff18} is restored.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff18} is cured.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "{ff18} regains their sanity.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff18} recovers.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "{ff18} is hiding.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "{ff14}\n is broken.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "{ff13} takes\n{ff11}1 damage.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "{ff13}\ntakes {ff11}1 damage.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "{ff13} is asleep.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "{ff13} is poisoned.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff13} turns to stone!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff13} is delirious!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff13} is paralyzed.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff13} is knocked out!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "{ff13}'s head flies off!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff13} is slain!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff13} is reduced to ash!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "{ff13} turns to dust!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff13} is silenced.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "{ff13} regains {ff11}1 HP.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff13} is fully restored.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff13} is cured.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "{ff13} regains sanity.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff13} recovers.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "{ff13}\nis unaffected.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff13} appears.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff13} is frightened!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "{ff13} vanishes.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff18} is beset by fire!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "{ff18} is enveloped in cold!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "invisible flames burn {ff18}!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "{ff18} is engulfed in an inferno!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "{ff18} is consumed by an unseen blaze!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "{ff18} is frozen through!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff13} is beset by flames!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "{ff13} is enveloped in cold!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "{ff13} is\nburned by invisible flames!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "{ff13} is\nengulfed in an inferno!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "{ff18} is\nconsumed by an unseen blaze!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "{ff13} is\nfrozen through!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "{ff18} is unaffected by the spell.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff18} is unaffected.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "{ff13}\nresists the spell.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "The spell has no effect.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "The party is unaffected.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "No effect on {ff18}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "No effect on\n{ff13}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "{ff18} fails to hide.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "{ff18} hides in shadow.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "{ff18} is discovered.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff18} is lost.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "{ff18}'s level fell.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 36,
+                    "source": "NA",
+                    "translation": "Each survivor gains\n{ff11}0 experience.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "was carried to the Temple.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "The party was returned to the castle.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "But no damage was taken.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Cast on whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "Preemptive attack!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "It's an ambush!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "{ff18} escaped from the enemy!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "The enemy cut off your retreat!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 31,
+                    "source": "NA",
+                    "translation": "{ff18} sprayed acid\non an enemy group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "{ff18} sprayed acid\non {ff13}!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "No effect on {ff18}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "No effect on\n{ff13}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff18} used {ff14}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Use on whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "{ff13} {ff15} with {ff14}",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Examine",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Calfo",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Calnova",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Disarm",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Open",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Leave",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "No trap",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Slingshot",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Poison Needle",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Magic Drain",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Poison Gas",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Bomb",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Ghost Swarm",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Demon's Eye",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Rainbow Ray",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Goddess's Kiss",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Spell Blaster",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Alarm",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Teleporter",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "This character doesn't know Calfo.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "Not enough MP.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Magic is sealed.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "That person is too frightened to recite spells.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "This character doesn't know Calnova.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Failed to disarm.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "The chest was not trapped.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "{ff18} successfully disarmed the trap!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Oops!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "Nobody who can cast Calfo now.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Nobody who can cast Calnova now.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "A treasure chest! Command?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "Who will examine the chest?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Who will cast Calfo?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "Who will cast Calnova?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Who will disarm the trap?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Who will open the chest?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Select a trap.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff18} was poisoned.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "{ff18}'s MP was drained.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "{ff18}'s strength left them.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": " ",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "{ff18} was blessed.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff18} perished.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "More enemies were summoned!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "You were shunted somewhere!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Inside rock!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "{ff18} takes {ff14}!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 39,
+                    "source": "NA",
+                    "translation": "Surviving party members each\nreceived {ff11}0 gold.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 27,
+                    "source": "NA",
+                    "translation": "The monsters are friendly. Command?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Attack",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "{ff18} turned Evil.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "{ff18} turned Good.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "But the gods heed it not.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "What is your wish?",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Replenish Magic Power",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Undo Level Drains",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Health and Revival",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Augment Magic Efficacy",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Protection from Magic",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Divine Armor",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Teleport Monsters",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Mind Fog",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Annihilation",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Quietude",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "Vulnerability",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "False Armor",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Enfeeblement",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Thousand Lashes",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "The wish was granted.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "{ff11}0 {ff13} appeared.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff13} advanced.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "Z{ff40}{ancient_a}{ancient_b}{ancient_c}{ancient_d}{ancient_z}",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Item Test{ff14}",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 131,
+                    "source": "NA",
+                    "translation": "An enormous mural is painted on the front\nof the Tree of Stillness.\nThe center of it catches your eye.{ff26}\rWhat's this? In the lower right,\nby-now-familiar glyphs are inscribed:\n]{ff30}5{ancient_d}{ancient_i}{ancient_m}{ancient_g}{ancient_u}{ancient_i}{ancient_l}{ff30}0[{ff26}",
+                    "compress": true,
+                    "addStringTerminator": true
+                }
+            ]
+        }
+    ]
+}

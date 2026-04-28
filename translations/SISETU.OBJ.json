@@ -1,0 +1,4425 @@
+{
+    "file": "DATA06/SISETU.OBJ",
+    "sections": [
+        {
+            "firstHeaderAddress": 0,
+            "firstHeader": 2692,
+            "sectionLength": 15723,
+            "strings": [
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "View Spells",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Equip",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Trade",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Discard",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Divvy Gold",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "What will you do?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Add whom to party?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "No available members",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Limit of six members",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Alignments are opposed",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Create PCs at the Training Hall",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "The party is empty",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Remove whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Inspect whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Pool gold for whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Assemble a party first",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "New companion registered.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "The applicant leaves in low spirits\nafter being rejected.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 27,
+                    "source": "NA",
+                    "translation": "The party is already full",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Choose a group to view",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 30,
+                    "source": "NA",
+                    "translation": "Read spell descriptions",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Equip weapons and armor",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 26,
+                    "source": "NA",
+                    "translation": "Trade items with other PCs",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Discard unwanted items",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "Pool gold for selected PC",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "{ff12} added to party",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "Registered {ff12}",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Which position?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Recruit Companions",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Register",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Swap",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Info",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Play",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Rules",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Library",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Table",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Really discard?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Loading...",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Who will rest?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "This character cannot rest",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Which room?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Resting",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Happy birthday!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Gained a level!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Strength rose.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Strength fell.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Intellect rose.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Intellect fell.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Piety rose.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Piety fell.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Vitality rose.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Vitality fell.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Agility rose.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Agility fell.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Luck rose.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Luck fell.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Learned spell",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Not enough gold",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 27,
+                    "source": "NA",
+                    "translation": "Restores MP only",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "1HP for 10GP／week",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "3HP for 50GP／week",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "7HP for 200GP／week",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "10HP for 500GP／week",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "Max HP for 10000GP／week",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "End stay",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "{ff12} has died of old age.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Passed away.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "力を 得た",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "知恵を 得た",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "信仰心を 得た",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "生命力を 得た",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "素早さを 得た",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "運の強さを 得た",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "力を 失った",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "知恵を 失った",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "信仰心を 失った",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "生命力を 失った",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "素早さを 失った",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "運の強さを 失った",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Who will do business?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Select a category.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Select a type.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Purchase which item?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Can't equip this. Buy anyway?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "Pool party gold?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "Not enough gold",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "You're full up.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Sell which item?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Give to whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Give which item?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Discard which item?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Can't carry more of this",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Inventory full",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Confirm?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Buy this set?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Can't carry this",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "This item may not be sold",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 27,
+                    "source": "NA",
+                    "translation": "Can't sell unknown items",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "It's equipped. Sell anyway?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Choose a cursed item.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "This isn't cursed.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Identify which item?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Identify",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Purchase items",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Sell your items",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "Free someone from a cursed item",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Identify item properties",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Compare weapon statistics",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Identify which item?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Dispel curse?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Won't sell",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Sell this item?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 31,
+                    "source": "NA",
+                    "translation": "Inventory full. Swap something",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Cursed",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Novice's Set",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Adept's Set",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Expert's Set",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 27,
+                    "source": "NA",
+                    "translation": "Sets need five free slots",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "*Identified*",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "<Nature>",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "<Gender>",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "<Class>",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "<Race>",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "A fine choice.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "It's nobody's fault.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "That's the last one.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "It seems you're short on gold.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 108,
+                    "source": "NA",
+                    "translation": "\"My, everything's in stock now.\nThat's never happened before.\nLet me offer you this\nto commemorate the occasion.\"\n\r\nReceived the Tome of Reincarnation!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Mystery Items",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff24}Compare wpns",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "A",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "S",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "H",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "L",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "D",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "P",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 36,
+                    "source": "NA",
+                    "translation": "A: Accuracy   S: Extra attacks",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 40,
+                    "source": "NA",
+                    "translation": "H: Max Damage L: Min Damage",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 39,
+                    "source": "NA",
+                    "translation": "D: Specialty  P: Special Power",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "These are both the same.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "First weapon?",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Second weapon?",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Hey, cut that out.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "That's the same weapon.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "That is not a weapon.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "I can't understand this one.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Nobody is in our care.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Who shall be saved?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Who shall pay?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "You have no room for this poor soul.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Who do you wish to redeem?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "None among you require our aid.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Who shall you leave with us?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "{ff12} hath been healed.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "{ff12} returned to the tavern.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff12} is revivified.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "{ff12} hath been reduced to ash!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "{ff12} is lost to this world...",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Choose a name",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "That name is already in use",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Choose a race",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Choose a gender",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Choose alignment",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Choose a class",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 27,
+                    "source": "NA",
+                    "translation": "Distribute bonus points",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Is this alright?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Create this character?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Train further?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "A year has passed",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "No more characters may be registered",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "View whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Move cursor to view spells",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Erase whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Erase this character?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Change whose name?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "What will the new name be?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Change whose class?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Change to which class?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Prerequisites not met",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Really change class?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 26,
+                    "source": "NA",
+                    "translation": "Class changed (check equipment)",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Move whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Move to where?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 66,
+                    "source": "NA",
+                    "translation": "SELECT switches the \ncharacter set. Maximum\nname length is 8.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 68,
+                    "source": "NA",
+                    "translation": "Adept with any class.\nNo especial strengths\nor weaknesses.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 73,
+                    "source": "NA",
+                    "translation": "High Int and Pie.\nResists sleep effects.\nBest in the backline\ndue to low Str and Vit.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 65,
+                    "source": "NA",
+                    "translation": "Good Str, Vit and Pie.\nMake for an ideal priest.\nResistant to poison.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 76,
+                    "source": "NA",
+                    "translation": "Underground-dwellers.\nHighest Pie of any race.\nQuite strong for\ntheir small stature.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 74,
+                    "source": "NA",
+                    "translation": "Bad with magic, but\nexcel as thieves.\nStrong against\nspecial attacks.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 73,
+                    "source": "NA",
+                    "translation": "Highest Int of any race.\nPossess natural defenses,\nbut cannot equip many items.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 73,
+                    "source": "NA",
+                    "translation": "Humanoid reptilians with\npeerless Str and Vit,\nbut no magical aptitude.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 67,
+                    "source": "NA",
+                    "translation": "Half-dragon and half-human,\ncapable of breath attacks.\nStrong against\nspecial attacks.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 69,
+                    "source": "NA",
+                    "translation": "Humanoids of canine ancestry.\nHigh Pie and Vit.\nTheir fur gives them\nresistance to cold.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 72,
+                    "source": "NA",
+                    "translation": "Bizarre strain of life.\nHigh Str, Vit and Int.\nTheir fur gives them\nresistance to cold.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 73,
+                    "source": "NA",
+                    "translation": "Humanoids of feline ancestry.\nHigh Int and Agi. Resistant\nto cold, and may evade\nsome attacks.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 68,
+                    "source": "NA",
+                    "translation": "Tends to be more aggressive.\nPermanent +1 Str.\nBest with martial classes.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 72,
+                    "source": "NA",
+                    "translation": "Usually more temperate.\nPermanent +1 Vit.\nCan become a Valkyrie.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 70,
+                    "source": "NA",
+                    "translation": "Disciples of virtue\nand upholders of honour.\nPrefer to leave friendly\nmonsters in peace.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 69,
+                    "source": "NA",
+                    "translation": "Views the world from a\npractical standpoint.\nConcepts of Good and Evil\nare of no import to them.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 70,
+                    "source": "NA",
+                    "translation": "Those who adhere to but one\n precept: to slaughter\nall who may oppose them.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 59,
+                    "source": "NA",
+                    "translation": "High HP and can handle most\nforms of weapons and armor.\nCannot learn magic.\nGains levels quickly.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 70,
+                    "source": "NA",
+                    "translation": "An expert in attack magic.\nHP is low and equipment\nselection is poor.\nBest off in the backline.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 69,
+                    "source": "NA",
+                    "translation": "An expert in healing magic.\nGood HP and equipment choice.\nCan {ff30}2Dispel{ff30}0\nthe undead. ",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 57,
+                    "source": "NA",
+                    "translation": "Can pick locks, disarm\ntraps, detect hidden doors,\nand hide from attack.\nGains levels the fastest.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 75,
+                    "source": "NA",
+                    "translation": "Learns Mage spells and\nwields exclusive katana. Less HP\nthan a Fighter, but\nstronger on offense.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 73,
+                    "source": "NA",
+                    "translation": "Combines the strengths of a\nFighter and Priest, but gains levels\nslower than either.\nCan {ff30}2Dispel{ff30}from Lv. 9.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 79,
+                    "source": "NA",
+                    "translation": "A women-only class with\ngood HP, Priest spells, and most\nFighter equipment.\nParticularly gifted with spears.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 72,
+                    "source": "NA",
+                    "translation": "Master of long-ranged bows.\nCan cast Alchemy spells\nand use some Thief skills.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 75,
+                    "source": "NA",
+                    "translation": "Can cast Mage spells and\nuse some Thief skills, but their\nreal talent lies in evoking\nmagic from special instruments.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 73,
+                    "source": "NA",
+                    "translation": "Transmuters whose eclectic\nmagic ranges from healing\nto offense. Physically weak.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 73,
+                    "source": "NA",
+                    "translation": "Wielders of magic that affects\nthe mind and soul through words.\nLow HP and equipment selection.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 69,
+                    "source": "NA",
+                    "translation": "Learns Mage and Priest spells,\ncan {ff30}2Dispel{ff30}0 the undead, and\nidentify unknown items.\nGains levels slowly.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 68,
+                    "source": "NA",
+                    "translation": "Can behead enemies, cast\nAlchemy spells, and use some\nThief skills. AC improves\nwith their level.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 58,
+                    "source": "NA",
+                    "translation": "Can knock enemies out\nand cast Psionic spells. AC\nimproves with their level.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 68,
+                    "source": "NA",
+                    "translation": "Represents bodily strength.\nAffects the damage and\naccuracy of weapons.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 66,
+                    "source": "NA",
+                    "translation": "One's analytical prowess.\nAffects how quickly Mage,\nAlchemy and Psionic\nspells are learned.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 62,
+                    "source": "NA",
+                    "translation": "One's faith and inner beauty.\nAffects how quickly Priest\nspells are learned.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 65,
+                    "source": "NA",
+                    "translation": "Represents physical endurance.\nAffects HP gained on level-up\nand revival chance.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 69,
+                    "source": "NA",
+                    "translation": "How quick and agile you are.\nInfluences initiative and\nthe ability to avoid traps.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 71,
+                    "source": "NA",
+                    "translation": "An ineffable quality.\nInfluences trap disarming,\nevading enemy attacks,\nand sundry other things.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "Which family of spells?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Cast which spell?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Use which item?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Nothing happened",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Give to whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Give which item?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Equipped - can't give",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Cursed!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "*Cursed*",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Select weapon",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "Select other equipment",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Select armor",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Select headwear",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Select gloves",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Select footwear",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Select accessory",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "Unleash special power?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "Equipped - can't drop",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Critical item. Discard anyway?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Afraid",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "*Failed*",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "You touched it!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "*Cursed*",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "Identified. View item details?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Move whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Cast spells and review their descriptions",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 30,
+                    "source": "NA",
+                    "translation": "Use, trade, or equip items",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "Use magic-bearing items",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 26,
+                    "source": "NA",
+                    "translation": "Trade with other characters",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "Equip or remove gear",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Discard unwanted items",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Identify and examine items",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Spell cast",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Cast on whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Healthy",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Nothing happened",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Alive",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "The party was returned to their former place.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "It opens",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Failed",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Impenetrable",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "As you see",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Search for whom?",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Alive",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "In town",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Here",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "{ff11}1F",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "{ff11}1N",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff11}1E",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "In the field",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Inside the Shrine",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Below the Shrine",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "In Area X",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "In Area A",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "In Area B",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "In Area C",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "In Area D",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "In Area E",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "In Training Maze",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "In Area G",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Not in this area",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "At the Temple",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Cannot equip",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Can't cast that spell",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Failed!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff24}Identify",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Which effect will you confer?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Str up",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Int up",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Pie up",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Vit up",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Agi up",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Luck up",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Become Good",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Become Neutral",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Become Evil",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "{ff12}'s Strength increased.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "{ff12}'s Intellect increased.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "{ff12}'s Piety increased.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "{ff12}'s Vitality increased.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "{ff12}'s Agility increased.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "{ff12}'s Luck increased.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "{ff12}'s alignment shifted.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Drop whose item?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Obtained ",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff12}",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Use on whom?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Identify whose item?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Identified.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Could not identify.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Used {ff14}.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Unknown",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "rock-like",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Space is full.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 31,
+                    "source": "NA",
+                    "translation": "Inventory full. Swap with an item",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "*Not enough MP*",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Nothing happens.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Oops!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "Nobody is in the dungeon.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Resume with which party?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 29,
+                    "source": "NA",
+                    "translation": "You find only faint traces of them.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Camp",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 251,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 26,
+                    "source": "NA",
+                    "translation": "\n\"Ganess bids you welcome, adventurers.\"",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 63,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 56,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 353,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 173,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 60,
+                    "source": "NA",
+                    "translation": "\"Should you discover aught within,\nhesitate not but return to inform us.\"",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 70,
+                    "source": "NA",
+                    "translation": "\"You are to betake yourselves to\nthe Shrine, rescue its Priestess,\nand report what is occurring\n   beneath our Kingdom!\"",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 93,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 198,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 174,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 65,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 90,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 94,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 134,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 64,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 105,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 99,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 72,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 67,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 90,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 36,
+                    "source": "NA",
+                    "translation": "\"Behold! In the deeps,\nthe dark god slumbers!\"",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 59,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "The Origin",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "The Priestess",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Old Friend",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Mask",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Freezer",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "The Machine",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Gold Knight",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Prisoners",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Ringed Door",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Artifice God",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Name of Divinity",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Strange Device",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Dark God",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "End",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 130,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "King's Chambers",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 203,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 158,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 157,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 136,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 156,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 157,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 185,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 178,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 173,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 166,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 183,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 165,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 177,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 180,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 165,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 144,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 161,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 151,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 189,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 144,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Nobody came to apply.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Admit them to the party?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": false
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Gilgamesh's Tavern",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Adventurer's Inn",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Boltac's Trading Post",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Temple of Cant",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Training Hall",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Training Grounds",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "City Outskirts",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Form Party",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Remove Companion",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Inspect Character",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Divvy Gold",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Pool Gold",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "To Tables",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Recruit",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Watch Musical",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Diviner",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Play Cards",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Stay",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Trade",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Item Catalogue",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Heal Character",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Retrieve Character",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Drop Off Character",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Adjust Settings",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Reorder Party",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "View Memo",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Record Adventure",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Study Ancient Glyphs",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Return",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Create Character",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Erase Character",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Rename Character",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Change Class",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Reorder",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Audience with His Majesty",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Read Book of Demons",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Begin Adventure",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Resume Adventure",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Save Game",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Prepare",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "To Training Maze",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Look for Companions",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "Continue with new party",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Fortress City of Ganess",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "Trial version not available",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Tome{of}Rebirth",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Investigate",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Look for Companions",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Save and Quit",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "Resume with New Party",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Return",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Monster Compendium",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Dragonhome",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Chat",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Depart",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff24}Sort Items",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Sort inventory",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Searching",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 29,
+                    "source": "NA",
+                    "translation": "Push this button to return to Ganess.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Several buttons are lined up\non the wall. Push one?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "The odd statue came to life!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "A switch protrudes from the wall.\nFlip it?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Yes",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "No",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "*Failed*",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "*Success!*",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Field",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Shrine Interior",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Shrine Vaults",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area X",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area A",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area B",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area C",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area D",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area E",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area Z",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Maze-B1",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Maze-B2",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Maze-B3",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Maze-B4",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Maze-B5",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Maze-B6",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Maze-B7",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Maze-B8",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Dragonhome-B1",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Dragonhome-B2",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Dragonhome-B3",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Couldn't find anything.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "An encounter!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Ouch!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Instant Movement",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Smooth Movement",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "An unremarkable door.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "You found a secret door!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Got a strange feeling.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Pit!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Chute!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Landmine!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Flames erupt from below!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Gas pit!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "No floor!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "But you floated safely above it.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Entombed in stone",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Map",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Position",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Fire pit!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "It's back where it was!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Entombed in stone",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 260,
+                    "source": "NA",
+                    "translation": "Thank you for your visit today.\nThis facility was built beneath\nGaness to train new adventurers.\nWithin this maze you can battle\nmonsters to earn XP, but no items or\ngold can be earned. However,\ndead companions will besent to the \nTemple upon exiting the maze,\nas a free service.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Field",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Shrine Interior",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Shrine Vaults",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area X",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area A",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area B",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area C",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area D",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area E",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Area Z",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Training Maze",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Training Maze",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Training Maze",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Training Maze",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Training Maze",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Training Maze",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Training Maze",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Training Maze",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Dragonhome",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Dragonhome",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Dragonhome",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "Play Time   {ff11}0:{ff11}1:{ff11}2",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "Reset Count {ff11}0",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "It's locked.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Spell not learned.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Who will pick the lock?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "Not enough MP.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "* Success! *",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "* Failed! *",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Force",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Magic",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Give up",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "{ff12} can't act.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Picking the lock",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "The door is locked.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Inside rock!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "No floor!",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Red",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Green",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Castle Town",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "<Gender>",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Parlyz",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Lost",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Ashes",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Dead",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Stone",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Parlyz",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Poison",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "To next lvl:",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "{ff11}0 EXP",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "HP increased by {ff11}0 points.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "HP increased by {ff11}0 points.",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "MURMUR-",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "CHANT-",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "PRAY-",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "INVOKE",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Set",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Return",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Sold Out",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "What?",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Magic Item",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Special Item",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 1,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "{ff12} was sent to the Temple.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Save complete",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "Turn off the system, or press the",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": " button to continue",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Reincarnate from`",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Wizardry Gaiden III",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Wizardry Gaiden IV",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Enter their name.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Enter password for reincarnation.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "Male or Female?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Confirm?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 33,
+                    "source": "NA",
+                    "translation": "Incorrect password. Try again.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Password",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Incorrect password.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 31,
+                    "source": "NA",
+                    "translation": "These words for the future\ncame to mind.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "No Memory Card",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": " found in Slot 1.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "No data found.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Loading.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 26,
+                    "source": "NA",
+                    "translation": "Do not remove your Memory Card.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Load failed.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Mem. Card is not formatted.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Format now?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Not enough space on Mem. Card.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Saving.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Save Menu",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Load Menu",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Formatting.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "Checking Memory Card.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Save failed.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "Save progress and return to town.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Confirm?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Find Companion",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Found!",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "Cannot load: data is corrupted.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 31,
+                    "source": "NA",
+                    "translation": "Cannot save. Resume?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 30,
+                    "source": "NA",
+                    "translation": "Two free slots are required\n on the Memory Card.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 27,
+                    "source": "NA",
+                    "translation": "Create WIZARDRY: DIMGUIL data",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "on Memory Card.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Overwrite?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Save canceled.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "Replace the Memory Card",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "that is presently in Slot 1.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 17,
+                    "source": "NA",
+                    "translation": "Formatting done.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "Now saving data.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Wizardry Dimguil",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "save data already exists.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Play without Memory Card?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 31,
+                    "source": "NA",
+                    "translation": "Data not found. Please insert the",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 27,
+                    "source": "NA",
+                    "translation": "Memory Card containing your",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "Dimguil data in slot 1.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 18,
+                    "source": "NA",
+                    "translation": "Cancel save?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Cancel loading and return to title?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Erase",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "Select ancient glyphs.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "Select alphabet.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                }
+            ]
+        }
+    ]
+}

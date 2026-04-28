@@ -1,0 +1,4034 @@
+{
+    "file": "DATA01/STATUS.OBJ",
+    "sections": [
+        {
+            "firstHeaderAddress": 0,
+            "firstHeader": 2588,
+            "sectionLength": 6294,
+            "strings": [
+                {
+                    "length": 14,
+                    "source": "NA",
+                    "translation": "Gilgamesh's Tavern",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Recruiting Members",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Add Companion",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Decline",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Listen further",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "End",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Yes",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "No",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Inn",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "The Stables        (Free)",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "A Cot              10G／W",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "Economy Rooms      50G／W",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "Merchant Suites   200G／W",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 21,
+                    "source": "NA",
+                    "translation": "The Royal Suite   500G／W",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Special Room    10000G／W",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Boltac's Trading Post",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Weapons",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Armor",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Shields",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Headwear",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Gloves",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Footwear",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Instruments",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Miscellany",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Swords",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Katana",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Wands & Daggers",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Axes & Hammers",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Maces & Whips",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Staves",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Polearms",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Bows",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Throwing Weapons",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Leather Armor",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Robes",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Chainmail",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Breastplates",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Plate Mail",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Shields",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Helms",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Hats",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Gloves",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Footwear",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Instruments",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "Potions",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Scrolls",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Sets",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "Ankhs",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Rings",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Amulets",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Miscellany",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Temple of Cant",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Training Hall",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "City Outskirts",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Begin Adventure",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Resume Adventure",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Save Game",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Make Preparations",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Enter Training Maze",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Back to Ganess",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Settings",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Items",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Monsters",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "Spells",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Menus",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Sound Mode",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Music",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "Sounds",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Effects",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "Help Messages",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "Message Speed",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Autosave",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Viewpoint",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Status Bar",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Finish",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "(EN／JPN)",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "(Stereo／Mono)",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "(Always／Press SELECT)",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 16,
+                    "source": "NA",
+                    "translation": "(1 2 3 4 5 Stop)",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "Memory Card",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Slot 1",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Slot 2",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff24}Purchase",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff24}Vend",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff24}Dispel Curse",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff24}Identify",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff24}End",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff24}View Spells",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "{ff24}Equip",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff24}Trade",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff24}Discard",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff24}Pool Gold",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 12,
+                    "source": "NA",
+                    "translation": "{ff24}Cast Spell",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "{ff24}Equip",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "{ff24}Item",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "{ff24}Pool Gold",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "{ff24}Back",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "{ff24}Use",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "{ff24}Trade",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "{ff24}Discard",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "{ff24}redneG",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 11,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "{ff24}Deaths",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "{ff23}muirileD",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "{ff24}Delirium",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Fofisc",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Attack",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Defend",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "Magic",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "Dispel",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Item",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Flee",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Ambush",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Hide",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "Breath",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 13,
+                    "source": "NA",
+                    "translation": "Confirm actions?",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "Yes／{tab_4}No",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 31,
+                    "source": "NA",
+                    "translation": "Lulls one enemy group to sleep.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 20,
+                    "source": "NA",
+                    "translation": "1-8 Fire damage to one enemy.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Shows a map of the current floor.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Deals 1-8 Fire damage to an enemy group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "-2 AC for one ally.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 36,
+                    "source": "NA",
+                    "translation": "+2 AC for an enemy group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 33,
+                    "source": "NA",
+                    "translation": "+4 AC for an enemy group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Deals 4-24 Fire Damage to an enemy group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 33,
+                    "source": "NA",
+                    "translation": "Raises party's resistance to enemy spells.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Deals 24-58 Lightning damage to one enemy.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Deals 6-58 Fire damage to an enemy group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 36,
+                    "source": "NA",
+                    "translation": "Party floats over traps for a long while.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "Summons a demon to fight for the party.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Deals 8-64 Cold damage to an enemy group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 39,
+                    "source": "NA",
+                    "translation": "Null zone makes enemy spells likely to fizzle.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "Deal 1-1000 damage to one Undead enemy.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 26,
+                    "source": "NA",
+                    "translation": "Deals 44-98 Cold damage to an enemy group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Deals 64-80 Lightning damage to one enemy.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 36,
+                    "source": "NA",
+                    "translation": "Warp to a known tile. In battle, random warp.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 34,
+                    "source": "NA",
+                    "translation": "Invoke a powerful miracle, but lose one level.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Blasts all enemies for 10-150 damage.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Restores 1-8 HP to one ally.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 19,
+                    "source": "NA",
+                    "translation": "Deals 1-8 damage to one enemy.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "Magic armor grants -4AC for caster",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 31,
+                    "source": "NA",
+                    "translation": "Detect chest traps. Rarely mistaken.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 29,
+                    "source": "NA",
+                    "translation": "Silences enemies in one group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 31,
+                    "source": "NA",
+                    "translation": "Divines the location of a lost ally.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 30,
+                    "source": "NA",
+                    "translation": "Identifies enemies for a long while.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 34,
+                    "source": "NA",
+                    "translation": "Cures one ally of Paralysis.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "-3AC for the party.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Restores 2-16 HP to one ally.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "Cures one ally of Poison.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 36,
+                    "source": "NA",
+                    "translation": "-2 AC for the party for a long while.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Restores 3-24 HP to one ally.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 27,
+                    "source": "NA",
+                    "translation": "Attempts to stop one enemy's heart.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 26,
+                    "source": "NA",
+                    "translation": "Summons the undead to fight for the party.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 36,
+                    "source": "NA",
+                    "translation": "Fully heals an ally (unless Dead or Ash).",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Drains almost all HP from one enemy.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 36,
+                    "source": "NA",
+                    "translation": "Banishes one demon whence they came.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 33,
+                    "source": "NA",
+                    "translation": "Cures Dead&Ash and fully heals one ally.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Stops the hearts of one enemy group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 30,
+                    "source": "NA",
+                    "translation": "Restores 30-60HP to all allies.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 34,
+                    "source": "NA",
+                    "translation": "Party attack power↑ for a short time.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 34,
+                    "source": "NA",
+                    "translation": "Deals damage based on 1/2 of HP.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 37,
+                    "source": "NA",
+                    "translation": "-1 AC and +1 strike for one ally.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 33,
+                    "source": "NA",
+                    "translation": "1-4 lingering Fire damage to a group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 26,
+                    "source": "NA",
+                    "translation": "Reduces enemy spell resistance.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Clears damaging clouds from party.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 31,
+                    "source": "NA",
+                    "translation": "2-8 lingering Cold damage to a group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Toxic dust puts all enemies to sleep.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 37,
+                    "source": "NA",
+                    "translation": "Party attack power↑ for a long while.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 34,
+                    "source": "NA",
+                    "translation": "3-12 lingering Poison damage to a group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 40,
+                    "source": "NA",
+                    "translation": "Adds to spell resistance for a long while.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Reflects enemy spells for 3 turns.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "4-20 lingering Fire damage to a group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Creates a monster to fight for the party.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 39,
+                    "source": "NA",
+                    "translation": "Cures party of nonfatal ailments.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "5-40 lingering Poison damage to a group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Fully restores on ally's HP.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Cremates a group of low-level monsters.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "Bombs an enemy for 80-130 damage.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Safely opens a chest or door.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "4-60 lingering Cold damage to a group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "Deals 1-10 mental damage to one enemy.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 24,
+                    "source": "NA",
+                    "translation": "Restores 2-6 HP to one ally.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 34,
+                    "source": "NA",
+                    "translation": "-1 AC to party, +1 AC to enemies.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Deals 2-10 mental damage to an enemy group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 33,
+                    "source": "NA",
+                    "translation": "Helps detect hidden things for a long while.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 28,
+                    "source": "NA",
+                    "translation": "Divine the contents of the tile just ahead.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 36,
+                    "source": "NA",
+                    "translation": "Hypnotizes an enemy group to stop action.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 34,
+                    "source": "NA",
+                    "translation": "-2 AC to party, +2 AC to enemies.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 35,
+                    "source": "NA",
+                    "translation": "Hides caster, allowing them to Ambush.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Deals 2-16 mental damage to an enemy group.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "Strengthens the party's offensive spells.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 27,
+                    "source": "NA",
+                    "translation": "Lowers an enemy group's attack power.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 31,
+                    "source": "NA",
+                    "translation": "Conjures a living illusion to fight for you.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 34,
+                    "source": "NA",
+                    "translation": "Warp to Ganess, but party inventory is lost.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 22,
+                    "source": "NA",
+                    "translation": "Deals 36-64 Cold damage to one enemy.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 23,
+                    "source": "NA",
+                    "translation": "Identify an unknown item.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Restores 6-18 HP to all allies.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 25,
+                    "source": "NA",
+                    "translation": "Psionic arrows deal 8-64 damage to one enemy.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 32,
+                    "source": "NA",
+                    "translation": "12-48 damage and ailments to all enemies.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 29,
+                    "source": "NA",
+                    "translation": "Deals 9-72 mental damage to all enemies.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 30,
+                    "source": "NA",
+                    "translation": "Grants a special boon to one ally.",
+                    "compress": true,
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "{ff23}ル\"ヘレ",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "{ff23}く\"そゅし",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "{ff23}つ\"へいせ",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "{ff23}うょ\"きくょし",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "{ff23}く\"そうと",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "{ff23}\"トーロ",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "{ff23}ーリキル\"ハ",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "{ff23}ーャ\"シンレ",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "{ff23}\"トー\"ハ",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "{ff23}゜フッョシ\"ヒ",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "{ff23}ゃ\"しんに",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "{ff23}ん\"けんに",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "{ff23}フーワ\"ト",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "{ff23}トッ\"ヒホ",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "{ff23}ンマ\"スリ",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "{ff23}ンコラ\"ト",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "{ff23}ん\"せ",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 9,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 7,
+                    "source": "{ff23}さや\"はす",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "{ff23}うょ\"しいせ",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "{ff23}く\"と",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "{ff23}う\"ほし",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "{ff23}tuO／う\"ほし",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 6,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 10,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 5,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 2,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 3,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 4,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "{ff30}C{ff10}40{ff30}0／Deli",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 8,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                },
+                {
+                    "length": 15,
+                    "source": "NA",
+                    "translation": "",
+                    "addStringTerminator": true
+                }
+            ]
+        }
+    ]
+}
