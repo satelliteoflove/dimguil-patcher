@@ -2228,13 +2228,13 @@
                 {
                     "length": 198,
                     "source": "NA",
-                    "translation": " \n\"It began one festival night. With the\nfestival at its height, the fair Priestess\nset out for the Shrine for the yearly rite,\nguarded by three soldiers.\n It began like every other year's rite,\n and should have ended just the same....\"",
+                    "translation": "\"It began on a festival night. The fair\nPriestess and three guards went to the\nShrine for the yearly rite, which should\nhave ended as it always did...\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 174,
                     "source": "NA",
-                    "translation": "\"The Priestess has gone missing. The Royal\nGuard report bodies strewn on the altar,\nbut no trace of the Priestess herself.\n  Let me show you how it was then.\n \n ..Truth or illusion? That is for you to judge.\"",
+                    "translation": "\"The Priestess has vanished. The Guard\nfound bodies at the altar, but no sign\nof her. Let me show you what happened.\nTruth or illusion? You decide.\"",
                     "addStringTerminator": true
                 },
                 {
@@ -2258,7 +2258,7 @@
                 {
                     "length": 134,
                     "source": "NA",
-                    "translation": "\"It seems the lake was fouled by a machine\nsleeping deep underground. Only a few know\nthe tale of the fiend that runs that\nstrange machine.\"",
+                    "translation": "\"It seems a machine sleeping underground\nfouled the lake. Few know the tale of\nthe fiend that runs that strange machine.\"",
                     "addStringTerminator": true
                 },
                 {
@@ -2270,7 +2270,7 @@
                 {
                     "length": 105,
                     "source": "NA",
-                    "translation": "\"Know you the tale of the fiend imprisoned\nin chains? Glowing green, its vast form has\nterrified many. They say it lies in wait\nfor adventurers lost in the labyrinth.\"",
+                    "translation": "\"Know you the tale of the chained fiend?\nIts vast, green-glowing form terrifies\nall, and they say it lies in wait for\nthose lost in the labyrinth.\"",
                     "addStringTerminator": true
                 },
                 {
@@ -2410,7 +2410,7 @@
                 {
                     "length": 130,
                     "source": "NA",
-                    "translation": " \n\"Let me show you your past and future.\"\n\"The past reveals the causes.......\n.....the future, the fate that awaits.\n        Now, which would you see?\"",
+                    "translation": "\"Let me show you your past and future.\nThe past reveals the causes......\n.....the future, the fate that awaits.\nNow, which would you see?\"",
                     "addStringTerminator": true
                 },
                 {
@@ -2423,121 +2423,121 @@
                 {
                     "length": 203,
                     "source": "NA",
-                    "translation": "\"People take me for a kindly sort, but\nI do follow the tenets of evil, you know.\nIf a healer had a fearsome face, the\ninjured would be too scared to get better.\nThe years crept up on me somehow, but I\nwork all the better for it. What say you?\"",
+                    "translation": "\"People take me for a kindly sort, but\nI do follow the tenets of evil. A healer\nwith a scary face would frighten the sick.\nI've grown old somehow, but I work all\nthe better for it. What say you?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 158,
                     "source": "NA",
-                    "translation": "\"I'm young, but I rolled lots of bonus\npoints, so I became a Bishop. Really!\nI don't know many spells, though.\nBut I'm lucky, so people always ask me\nto identify things. No curses so far!\"",
+                    "translation": "\"I'm young, but I rolled lots of bonus\npoints, so I'm a Bishop. Really! I don't\nknow many spells, but I'm lucky, so I'm\nalways asked to identify things. Nothing\ncursed so far!\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 157,
                     "source": "NA",
-                    "translation": "\"I tired of adventuring and took to drink.\nLately my money's been running dry.\nI'd like to join you and earn my bar tab.\nIf I'm about to die, feel free to leave\nme behind. I've made my peace with it.\"",
+                    "translation": "\"I tired of adventuring and took to drink,\nand now my money's running dry. Let me\njoin you and earn my bar tab. If I'm about\nto die, just leave me behind. I've made\nmy peace with it.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 136,
                     "source": "NA",
-                    "translation": "\"My master has gone missing and I'm\nsearching for him. Where can he be?\nI want to join you and look for him.\nIt's all right if we never find him.\nI just want to be stronger when we\nmeet again someday.\"",
+                    "translation": "\"My master has gone missing. Where can he\nbe? I'd like to join you and search for\nhim. It's all right if we never find him.\nI just want to be stronger when we meet\nagain someday.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 156,
                     "source": "NA",
-                    "translation": "\"You need help, don't you? Don't worry,\nI'll live up to your hopes, no question.\nMy strength and stamina are above average.\nIf I have a weakness, it's my head...\nNever mind that. Will you let me join?\"",
+                    "translation": "\"You need help, don't you? Don't worry,\nI won't let you down. My strength and\nstamina are above average. If I have a\nweakness, it's my head... Never mind that.\nWill you let me join?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 157,
                     "source": "NA",
-                    "translation": "\"Hello! Pardon me for sitting on the table.\nI'm so small, I thought I'd better get\nwhere you could see me.\nI'm not fond of bother, but I'll be\ncareful not to get in your way.\nYou won't regret it. Let me join you!\"",
+                    "translation": "\"Hello! Pardon me for sitting on the table.\nI'm so small, I had to get where you could\nsee me. I'm not fond of bother, but I'll\nstay out of your way. You won't regret it,\nso let me join you!\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 185,
                     "source": "NA",
-                    "translation": "\"Hey, how are you? I've just come back to\nGaness after a long time away. Some new\ntrouble has come up here, so I was dragged\nback in the middle of a journey. And now\nmy old comrades are all dead. Even someone\nlike me wants to help my homeland\nin its hour of need.\"",
+                    "translation": "\"Hey, how are you? I've just come home to\nGaness after a long time away. New trouble\nhere dragged me back mid-journey, and my\nold comrades are all dead. Even someone\nlike me wants to help his homeland.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 178,
                     "source": "NA",
-                    "translation": "\"I hail from the Land of the Rising Sun,\na small land, but birthplace of the samurai\nand ninja. My sword is first-rate, but\nI hate a fuss. Think of me as just the\nrescue crew for the missing, if you would.\nMind, I gave up the samurai spirit\nlong ago...\"",
+                    "translation": "\"I hail from the Land of the Rising Sun,\nbirthplace of samurai and ninja. My sword\nis first-rate, but I hate a fuss. Think of\nme as rescue crew for the missing, if you\nlike. I gave up samurai spirit long ago.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 173,
                     "source": "NA",
-                    "translation": "\"I am a ninja, I am, believe it or not!\nA failed one, but I shall train harder\nand become a master, I shall. Strangely,\nwhile I was playing with a certain item,\na hidden power awoke in me. Truth is,\nI was once a petty thief, I was.\"",
+                    "translation": "\"I am a ninja, I am, believe it or not!\nA failed one, but I'll train to be a\nmaster. A hidden power awoke in me while\nI was playing with a certain item. Truth\nis, I was once a petty thief, I was.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 166,
                     "source": "NA",
-                    "translation": "\"I'm Honey, and my charm is my catlike\nquickness. I do like to be pampered, but\nmy claws are sharp, so be careful!\nI don't owe you anything, but I owe the\nKing for taking me in. I thought I might\nhelp you out and repay him. Well?\"",
+                    "translation": "\"I'm Honey, and my charm is my catlike\nquickness. I like to be pampered, but my\nclaws are sharp, so watch out! I owe the\nKing for taking me in, so I thought I'd\nrepay him by helping you. Well?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 183,
                     "source": "NA",
-                    "translation": "\"I love to sing, and I'm handy with any\ninstrument. The tunes played here in the\ntavern? I wrote them. I love adventure too,\nand to sharpen my senses I'd like to travel\nwith you. What do you say? These nimble\nfingers can play any instrument at all.\"",
+                    "translation": "\"I love to sing, and I'm handy with any\ninstrument. I wrote the tunes you hear in\nthis tavern. I love adventure too, and\nI'd like to travel with you to hone my\nart. These fingers can play anything!\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 165,
                     "source": "NA",
-                    "translation": "\"I'm of noble birth, believe it or not.\nMinor nobility, but still, my ancestors\nwere famous in Llylgamyn City.\nNot that it counts for much in this town,\nbut I do have money. Just don't take it\nand say 'Thanks, bye!', all right?\"",
+                    "translation": "\"I'm of noble birth, believe it or not.\nMinor nobility, but my ancestors were\nfamous in Llylgamyn City. That counts for\nlittle here, but I do have money. Just\ndon't take it and say 'Bye!', all right?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 177,
                     "source": "NA",
-                    "translation": "\"I'm a Valkyrie, a female Lord, you might\nsay. I was raised in a family of old and\nnoble lineage. Sadly, some rich brat from\na certain town pressed me to marry him,\nso I ran away. I brought what gear I could\ncarry, but I sold my weapon for money.\"",
+                    "translation": "\"I'm a Valkyrie, a female Lord, you might\nsay, from an old and noble family. A rich\nbrat in some town pressed me to marry him,\nso I ran. I brought what gear I could, but\nI sold my weapon for money.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 180,
                     "source": "NA",
-                    "translation": "\"Hey now, don't judge me by my face.\nI only just turned good, you know.\nMy level's low, but my vitality is high.\nMy mug means I've few friends, but I\nlearn quick. How about it, let me join?\nI can back you up from the rear.\"",
+                    "translation": "\"Hey now, don't judge me by my face. I only\njust turned good, you know. My level's\nlow, but my vitality is high. My mug means\nfew friends, but I learn quick. Let me\njoin, and I'll back you up from the rear.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 165,
                     "source": "NA",
-                    "translation": "\"Psionic spells are hard. I've struggled\nto learn them, and grown old doing it.\nBut once I master these, other spells\nshould be a breeze. Mind, it's hard to\nchange careers at my age. Care to put my\nhard-won psionics to use?\"",
+                    "translation": "\"Psionic spells are hard. I've grown old\nstruggling to learn them, but once I do,\nother spells should be a breeze. Mind,\nit's hard to change careers at my age.\nCare to put my hard-won psionics to use?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 144,
                     "source": "NA",
-                    "translation": "\"I'm a priest, in active service. Rotten\npersonality, but my skills are the real\ndeal! As a healing and curing specialist,\nI'll be useful to you. My only flaw is my\nlow vitality. Well? Let me adventure\nwith you.\"",
+                    "translation": "\"I'm a priest, in active service. Rotten\npersonality, but my skills are the real\ndeal! As a healing specialist I'll serve\nyou well. My only flaw is low vitality.\nWell? Let me adventure with you.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 161,
                     "source": "NA",
-                    "translation": "\"I was born into a line of Monks in a land\nof martial artists, and I'm traveling to\nhone my skills. Something troubling seems\nto be stirring in this land. I don't know\nthese parts well, so I hope you will guide\nme. I look forward to working with you.\"",
+                    "translation": "\"I was born into a line of Monks in a land\nof martial artists, and I travel to hone\nmy skills. Something troubling stirs in\nthis land. I don't know these parts, so\nI hope you'll guide me. Well met!\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 151,
                     "source": "NA",
-                    "translation": "\"Well, hello. You want to hear about me?\nI love beautiful things more than anything.\nI heard there's a monster in the labyrinth\nmore beautiful than me, and I want to go\nwith you to see for myself.\nI won't insist, but how about it?\"",
+                    "translation": "\"Well, hello. You want to hear about me?\nI love beautiful things above all. I hear\na monster in the labyrinth is lovelier\nthan me, and I want to go with you and\nsee for myself. How about it?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 189,
                     "source": "NA",
-                    "translation": "\"I'm only a novice, but I am a Bishop,\na cleric. People shun me for my manner,\nbut I'm proud of my ability. You need\nsomeone to appraise items, don't you?\nI dislike danger, so I'll wait here in\nthe tavern for the items you bring back.\"",
+                    "translation": "\"I'm only a novice, but I am a Bishop.\nPeople shun me for my manner, but I'm\nproud of my ability. You need someone to\nappraise items, don't you? I dislike\ndanger, so I'll wait here for your finds.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 144,
                     "source": "NA",
-                    "translation": "\"I was born a bit feeble, so I seem better\nsuited to Alchemy than fighting. I love\nreading, so I don't mind a little boredom.\nBy the way, I was studying to be a priest\nuntil just now, so I know a few spells.\"",
+                    "translation": "\"I was born a bit feeble, so I seem better\nsuited to Alchemy than fighting. I love\nreading, so I don't mind a little boredom.\nAnd I was studying to be a priest until\njust now, so I know a few spells.\"",
                     "addStringTerminator": true
                 },
                 {
