@@ -2171,7 +2171,7 @@
                 {
                     "length": 251,
                     "source": "NA",
-                    "translation": "\"So the Priestess was fated not to return.\n..................\n...You have served us well. Through your\nstrength the mystery is solved, the fiends\nhave gone to ground, and the Kingdom is safe.\nAccept this title and 1,000,000 Gp.\"\n\"Hone your skills yet further for what may\ncome. ...We expect great things of you.\"",
+                    "translation": "\"So the Priestess was fated not to return.\n..................\n...You have served us well.\n\rBy your strength the mystery is solved,\nthe fiends have gone to ground, and the\nKingdom is safe. Accept this title and\n1,000,000 Gp.\"\n\r\"Hone your skills yet further for what may\ncome. ...We expect great things of you.\"",
                     "addStringTerminator": true
                 },
                 {
@@ -2196,13 +2196,13 @@
                 {
                     "length": 353,
                     "source": "NA",
-                    "translation": "\"So the depths beneath the Shrine truly\nare not of this world. The scholars also\nreport the rock there is most unnatural.\nWhen that great tremor shook the town,\nI sent the Royal Guard out for a time.\nI am glad you are unharmed. .......\nWhat lies beyond? I am most curious.\nI would have you go there at once.\nI have readied 10000 Gp each for you.\"\nBefore you can say a word, you are handed\n10000 Gp and shown out of the chamber.",
+                    "translation": "\"So the depths beneath the Shrine truly\nare not of this world. The scholars also\nreport the rock there is most unnatural.\n\rWhen that great tremor shook the town,\nI sent the Royal Guard out for a time.\nI am glad you are unharmed. .......\n\rWhat lies beyond? I am most curious.\nI would have you go there at once.\nI have readied 10000 Gp each for you.\"\n\rBefore you can say a word, you are handed\n10000 Gp and shown out of the chamber.",
                     "addStringTerminator": true
                 },
                 {
                     "length": 173,
                     "source": "NA",
-                    "translation": "\"At last the quakes in this fortress have\nceased, and the lake has regained its magic.\nYet the Priestess still weighs on me.\nHave you found no sign of her yet?\"\n \n\"There is work left for you yet.\"",
+                    "translation": "\"At last the quakes in this fortress have\nceased, and the lake has regained its magic.\n\rYet the Priestess still weighs on me.\nHave you found no sign of her yet?\"\n\r \n\"There is work left for you yet.\"",
                     "addStringTerminator": true
                 },
                 {
