@@ -4821,7 +4821,7 @@
                 {
                     "length": 153,
                     "source": "NA",
-                    "translation": "The runes carved on\nits chest mark the\ngolem-maker's art.\nThis Stone Golem was\nbuilt from gathered\nore. Being lifeless, a\ngolem has no fear of\npain and never\nflinches. A rather\nawkward foe to fight.",
+                    "translation": "The runes carved on\nits chest mark the\ngolem-maker's art.\nThis Stone Golem\nwas built from\ngathered ore. Being\nlifeless, a golem has\nno fear of pain and\nnever flinches. A\nrather awkward foe\nto fight.",
                     "addStringTerminator": true
                 },
                 {
@@ -4839,7 +4839,7 @@
                 {
                     "length": 174,
                     "source": "NA",
-                    "translation": "A one-eyed giant of\nold legend. In a time\nof dire famine he\nfused with plants to\nsurvive. His strength\nwaned, but he rose\nagain here as a\nwholly different\nmonster. Blessed with\ngreat vitality, he\ncalmly awaits\nadventurers without\na trace of rage.",
+                    "translation": "A one-eyed giant of\nold legend. In a time\nof dire famine he\nfused with plants to\nsurvive. His strength\nwaned, but he rose\nagain here as a\nwholly different\nmonster. Blessed\nwith great vitality,\nhe calmly awaits\nadventurers without\na trace of rage.",
                     "addStringTerminator": true
                 },
                 {
@@ -4919,7 +4919,7 @@
                 {
                     "length": 158,
                     "source": "NA",
-                    "translation": "Once of divine blood,\nher beauty and\nbearing have yet to\nfade. But now she is\na fearsome monster,\nand her petrifying\npower is known to\nall. Of course, it pays\nto watch out for her\nsnake bites and\npoison breath as well.",
+                    "translation": "Once of divine blood,\nher beauty and\nbearing have yet to\nfade. But now she is\na fearsome monster,\nand her petrifying\npower is known to\nall. Of course, it pays\nto watch out for her\nsnake bites and\npoison breath as\nwell.",
                     "addStringTerminator": true
                 },
                 {
@@ -5037,7 +5037,7 @@
                 {
                     "length": 146,
                     "source": "NA",
-                    "translation": "A kind of wildcat\nnative to these parts.\nAfter long years in\nthe temple, its\nhearing is 20 times\nsharper than a\nnormal wildcat's. Its\nsight has grown very\npoor, and as if to\nmake up for it, it has\nlearned a little magic.",
+                    "translation": "A kind of wildcat\nnative to these parts.\nAfter long years in\nthe temple, its\nhearing is 20 times\nsharper than a\nnormal wildcat's. Its\nsight has grown very\npoor, and as if to\nmake up for it, it\nhas learned a little\nmagic.",
                     "addStringTerminator": true
                 },
                 {
@@ -5067,7 +5067,7 @@
                 {
                     "length": 155,
                     "source": "NA",
-                    "translation": "An ominous bird\nwith a skull for a\nface. It attacks with\nits long beak. It's not\na hard fight, but\nmeeting one is said to\nbring bad luck, so\nadventurers hate it.\nJust a superstition,\nof course.",
+                    "translation": "An ominous bird\nwith a skull for a\nface. It attacks with\nits long beak. It's not\na hard fight, but\nmeeting one is said\nto bring bad luck, so\nadventurers hate it.\nJust a superstition,\nof course.",
                     "addStringTerminator": true
                 },
                 {
@@ -5109,7 +5109,7 @@
                 {
                     "length": 161,
                     "source": "NA",
-                    "translation": "A mutant, or\nsomeone's sick\nexperiment? Either\nway, a two-headed\nfrog. Besides body\nslams, it deals damage\nwith its croak. Some\nadventurers are said\nto have cracked from\nhearing it too long.\nFrog haters, beware.",
+                    "translation": "A mutant, or\nsomeone's sick\nexperiment? Either\nway, a two-headed\nfrog. Besides body\nslams, it deals\ndamage with its\ncroak. Some\nadventurers are said\nto have cracked from\nhearing it too long.\nFrog haters, beware.",
                     "addStringTerminator": true
                 },
                 {
@@ -5127,7 +5127,7 @@
                 {
                     "length": 148,
                     "source": "NA",
-                    "translation": "A beast too fierce to\ncall a dog. Bounding\nthrough the maze,\nit looks like a\nblazing fire. Indeed,\nwhen it opens its\nmouth, searing flames\npour out and roast\nadventurers. Maybe\nthat's why it's red.",
+                    "translation": "A beast too fierce to\ncall a dog. Bounding\nthrough the maze, it\nlooks like a blazing\nfire. Indeed, when it\nopens its mouth,\nsearing flames pour\nout and roast\nadventurers. Maybe\nthat's why it's red.",
                     "addStringTerminator": true
                 },
                 {
@@ -5219,7 +5219,7 @@
                 {
                     "length": 162,
                     "source": "NA",
-                    "translation": "A mad Lord who must\nhave cast off the\nLord's code long ago.\nHe looks human, but\nthink of him as\nsomething else inside.\nHis beastlike roar\nmakes every hair\nstand on end. His\nfierce swordplay can\nknock you out just\nfrom blocking it.",
+                    "translation": "A mad Lord who must\nhave cast off the\nLord's code long ago.\nHe looks human, but\nthink of him as\nsomething else\ninside. His beastlike\nroar makes every\nhair stand on end.\nHis fierce swordplay\ncan knock you out\njust from blocking\nit.",
                     "addStringTerminator": true
                 },
                 {
@@ -5505,7 +5505,7 @@
                 {
                     "length": 162,
                     "source": "NA",
-                    "translation": "A huge gatekeeper of\nHell who bars\nadventurers' way, a\ndemon who sees us as\nlittle more than game\nto hunt. Its long\nstaff is said to be\nmade from\nadventurers' bones. It\nknows spells, but\nmostly uses them for\nslaughter.",
+                    "translation": "A huge gatekeeper of\nHell who bars\nadventurers' way, a\ndemon who sees us as\nlittle more than\ngame to hunt. Its\nlong staff is said to\nbe made from\nadventurers' bones. It\nknows spells, but\nmostly uses them for\nslaughter.",
                     "addStringTerminator": true
                 },
                 {
@@ -5541,7 +5541,7 @@
                 {
                     "length": 179,
                     "source": "NA",
-                    "translation": "A huge demon whose\nbody stretches in\nmany folds. It hides\nits many tentacles\nunderground and\nstrikes from every\ndirection. Some even\nsay earthquakes are\nits doing. Its magic is\nbottomless, and it\ncan supposedly cast\nevery spell we know.",
+                    "translation": "A huge demon whose\nbody stretches in\nmany folds. It hides\nits many tentacles\nunderground and\nstrikes from every\ndirection. Some even\nsay earthquakes are\nits doing. Its magic\nis bottomless, and it\ncan supposedly cast\nevery spell we know.",
                     "addStringTerminator": true
                 },
                 {
@@ -5639,7 +5639,7 @@
                 {
                     "length": 150,
                     "source": "NA",
-                    "translation": "A hateful monster of\na mosquito. A normal\nmosquito bite is bad\nenough, but this one\nmay take your life\nalong with your\nblood. At least\nsomething this big is\nhard to lose sight of.\nKill it before it\nstings you.",
+                    "translation": "A hateful monster of\na mosquito. A normal\nmosquito bite is bad\nenough, but this one\nmay take your life\nalong with your\nblood. At least\nsomething this big\nis hard to lose sight\nof. Kill it before it\nstings you.",
                     "addStringTerminator": true
                 },
                 {
@@ -5683,7 +5683,7 @@
                 {
                     "length": 174,
                     "source": "NA",
-                    "translation": "A ball of the maze's\ndust and mold, said to\nhold a dead man's soul\nat its core. Its\nattacks are next to\nharmless, but it\nkeeps calling more of\nits kind, so the fight\nwill drag on. It gives\nlittle experience too,\nmaking it a real pest.",
+                    "translation": "A ball of the maze's\ndust and mold, said to\nhold a dead man's\nsoul at its core. Its\nattacks are next to\nharmless, but it\nkeeps calling more of\nits kind, so the fight\nwill drag on. It gives\nlittle experience too,\nmaking it a real pest.",
                     "addStringTerminator": true
                 },
                 {
@@ -5743,7 +5743,7 @@
                 {
                     "length": 177,
                     "source": "NA",
-                    "translation": "A truly strange\nsight. A man in a\npainting floating in\nmidair stares right\nat you. But beware.\nGet too close and the\nman spits out strange\ncreatures that wrap\naround you. Before\nyou know it, you may\nbecome a resident of\nthe painting\nyourself.",
+                    "translation": "A truly strange\nsight. A man in a\npainting floating in\nmidair stares right\nat you. But beware.\nGet too close and the\nman spits out\nstrange creatures\nthat wrap around\nyou. Before you know\nit, you may become a\nresident of the\npainting yourself.",
                     "addStringTerminator": true
                 },
                 {
@@ -5827,7 +5827,7 @@
                 {
                     "length": 143,
                     "source": "NA",
-                    "translation": "A small being born of\na machine. Never\njudge a foe by its\nsize alone, for that\nlittle body hides\nuntold power. If you\ncan't spot it, you'll\nbe hit without\nknowing what's\nhappening.",
+                    "translation": "A small being born\nof a machine. Never\njudge a foe by its\nsize alone, for that\nlittle body hides\nuntold power. If you\ncan't spot it, you'll\nbe hit without\nknowing what's\nhappening.",
                     "addStringTerminator": true
                 },
                 {
@@ -5845,7 +5845,7 @@
                 {
                     "length": 192,
                     "source": "NA",
-                    "translation": "All sorts of rubbish\nturns up in the maze:\ndust, rusted weapons,\ncarcasses, and the\nrestless souls of\nthose who died with\nregrets. All of it\ncame together to\nform this monster,\nwhich attacks\nadventurers to make\nthem part of itself.",
+                    "translation": "All sorts of rubbish\nturns up in the\nmaze: dust, rusted\nweapons, carcasses,\nand the restless\nsouls of those who\ndied with regrets.\nAll of it came\ntogether to form\nthis monster, which\nattacks adventurers\nto make them part of\nitself.",
                     "addStringTerminator": true
                 },
                 {
@@ -5865,7 +5865,7 @@
                 {
                     "length": 145,
                     "source": "NA",
-                    "translation": "No true angel would\nbe found in a place\nlike this. As its name\nsays, it is a fake,\na fool posing as an\nangel. Look closely:\nits angelic wings\nare a machine on its\nback, and it holds a\nhooked claw on a\ncord.",
+                    "translation": "No true angel would\nbe found in a place\nlike this. As its\nname says, it is a\nfake, a fool posing as\nan angel. Look\nclosely: its angelic\nwings are a machine\non its back, and it\nholds a hooked claw\non a cord.",
                     "addStringTerminator": true
                 },
                 {
@@ -5877,13 +5877,13 @@
                 {
                     "length": 194,
                     "source": "NA",
-                    "translation": "A fallen angel in a\nskull mask. It must\nhide what it is, for\nif that were known,\nit is said, disaster\nwould follow, enough\nto swap Heaven and\nHell. Its power shows\nboth angel and demon,\nand the bloody blades\nin its hands have\nslain many.",
+                    "translation": "A fallen angel in a\nskull mask. It must\nhide what it is, for\nif that were known,\nit is said, disaster\nwould follow, enough\nto swap Heaven and\nHell. Its power shows\nboth angel and\ndemon, and the bloody\nblades in its hands\nhave slain many.",
                     "addStringTerminator": true
                 },
                 {
                     "length": 143,
                     "source": "NA",
-                    "translation": "A guardian of the\ncultists' treasury.\nIts mineral body is\nastonishingly hard.\nIn the right light it\nmight pass for a gem\nitself, but who wants\na gem with a face\nand arms?",
+                    "translation": "A guardian of the\ncultists' treasury. Its\nmineral body is\nastonishingly hard.\nIn the right light it\nmight pass for a gem\nitself, but who\nwants a gem with a\nface and arms?",
                     "addStringTerminator": true
                 }
             ]
@@ -5927,7 +5927,7 @@
                 {
                     "length": 178,
                     "source": "NA",
-                    "translation": "A man-eater, said to\nrule over the other\ndemon races. The Ogre\nis crude and cruel\nbeyond measure, and\nits huge body gives\nits blows a strength\nnot to be taken\nlightly. It's short on\nbrains, though, so a\nlittle cunning will\nsee it off.",
+                    "translation": "A man-eater, said to\nrule over the other\ndemon races. The\nOgre is crude and\ncruel beyond measure,\nand its huge body\ngives its blows a\nstrength not to be\ntaken lightly. It's\nshort on brains,\nthough, so a little\ncunning will see it\noff.",
                     "addStringTerminator": true
                 },
                 {
@@ -5975,7 +5975,7 @@
                 {
                     "length": 160,
                     "source": "NA",
-                    "translation": "A bigger breed of\nGoblin, with\nabilities to match its\nsize. Its wits are no\nbetter, though, and\nit simply shoves\nforward unarmed with\nbrute force. You're\nunder no obligation\nto take it head-on, so\nuse spells.",
+                    "translation": "A bigger breed of\nGoblin, with\nabilities to match its\nsize. Its wits are no\nbetter, though, and\nit simply shoves\nforward unarmed\nwith brute force.\nYou're under no\nobligation to take it\nhead-on, so use\nspells.",
                     "addStringTerminator": true
                 },
                 {
@@ -6043,7 +6043,7 @@
                 {
                     "length": 166,
                     "source": "NA",
-                    "translation": "Gremlins may be more\nversatile than we\nimagine. This one is\nquite aged, yet has\nmastered Mage spells,\nand up close her\nclaws, her true\nweapons, will rend\nyou. Mothers are\nstrong, it seems.",
+                    "translation": "Gremlins may be\nmore versatile than\nwe imagine. This one\nis quite aged, yet has\nmastered Mage\nspells, and up close\nher claws, her true\nweapons, will rend\nyou. Mothers are\nstrong, it seems.",
                     "addStringTerminator": true
                 },
                 {
