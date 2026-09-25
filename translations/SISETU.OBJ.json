@@ -566,7 +566,7 @@
                 {
                     "length": 22,
                     "source": "NA",
-                    "translation": "Can't equip this. Buy anyway?",
+                    "translation": "Can't equip. Buy?",
                     "compress": true,
                     "addStringTerminator": true
                 },
@@ -3817,37 +3817,37 @@
                 {
                     "length": 21,
                     "source": "NA",
-                    "translation": "HP increased by {ff11}0 points.",
+                    "translation": "Max HP rose by {ff11}0.",
                     "addStringTerminator": true
                 },
                 {
                     "length": 17,
                     "source": "NA",
-                    "translation": "HP increased by {ff11}0 points.",
+                    "translation": "Max HP rose by {ff11}0.",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "MURMUR-",
+                    "translation": "Murmur-",
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "CHANT-",
+                    "translation": "Chant-",
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "PRAY-",
+                    "translation": "Pray-",
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "INVOKE",
+                    "translation": "Invoke",
                     "addStringTerminator": true
                 },
                 {
