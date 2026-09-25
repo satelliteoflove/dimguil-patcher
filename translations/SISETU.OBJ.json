@@ -1,5 +1,6 @@
 {
     "file": "DATA06/SISETU.OBJ",
+    "extendByBytes": 4000,
     "sections": [
         {
             "firstHeaderAddress": 0,
@@ -2170,7 +2171,7 @@
                 {
                     "length": 251,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"So the Priestess was fated not to return.\n..................\n...You have served us well. Through your\nstrength the mystery is solved, the fiends\nhave gone to ground, and the Kingdom is safe.\nAccept this title and 1,000,000 Gp.\"\n\"Hone your skills yet further for what may\ncome. ...We expect great things of you.\"",
                     "addStringTerminator": true
                 },
                 {
@@ -2183,25 +2184,25 @@
                 {
                     "length": 63,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Oh ho, you say nothing remains to be done?\nThen rest easy until new orders are issued.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 56,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I see you continue to hone your skills.\nStay and rest a while.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 353,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"So the depths beneath the Shrine truly\nare not of this world. The scholars also\nreport the rock there is most unnatural.\nWhen that great tremor shook the town,\nI sent the Royal Guard out for a time.\nI am glad you are unharmed. .......\nWhat lies beyond? I am most curious.\nI would have you go there at once.\nI have readied 10000 Gp each for you.\"\nBefore you can say a word, you are handed\n10000 Gp and shown out of the chamber.",
                     "addStringTerminator": true
                 },
                 {
                     "length": 173,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"At last the quakes in this fortress have\nceased, and the lake has regained its magic.\nYet the Priestess still weighs on me.\nHave you found no sign of her yet?\"\n \n\"There is work left for you yet.\"",
                     "addStringTerminator": true
                 },
                 {
@@ -2221,79 +2222,79 @@
                 {
                     "length": 93,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Believe it or not, as you will...\n.......that is all a fortune is.\nFind the signposts with your own hands.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 198,
                     "source": "NA",
-                    "translation": "",
+                    "translation": " \n\"It began one festival night. With the\nfestival at its height, the fair Priestess\nset out for the Shrine for the yearly rite,\nguarded by three soldiers.\n It began like every other year's rite,\n and should have ended just the same....\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 174,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"The Priestess has gone missing. The Royal\nGuard report bodies strewn on the altar,\nbut no trace of the Priestess herself.\n  Let me show you how it was then.\n \n ..Truth or illusion? That is for you to judge.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 65,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"An old friend will be awaiting you.\nWhat he wishes to say, none can know.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 90,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"The power of the fiend within the mask...\none day you will have need of it.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 94,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Know you the tale of the man sealed in ice?\nHis magic will vanish only with his life,\nand he shall sleep forever.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 134,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"It seems the lake was fouled by a machine\nsleeping deep underground. Only a few know\nthe tale of the fiend that runs that\nstrange machine.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 64,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Friend or foe? One clad in gold\n.......shall shake heaven and earth.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 105,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Know you the tale of the fiend imprisoned\nin chains? Glowing green, its vast form has\nterrified many. They say it lies in wait\nfor adventurers lost in the labyrinth.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 99,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Have you found the three rings? The key\nto the secret is hidden on some wall.\nThe great ring stands for the sky,\nthe small ring for the earth.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 72,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"The idol the heretics made of their god\nwas unfinished, it seems. What do they\nseek, and what do they worship?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 67,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"If you would learn the god's name, go to\nthe altar once more. ......Some secret\nmust lie hidden there.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 90,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Have you ever seen a strange machine?\nIt must be something like a GAME.\n....Best not to think too deeply on it.\"",
                     "addStringTerminator": true
                 },
                 {
@@ -2306,7 +2307,7 @@
                 {
                     "length": 59,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"You understand it all, I suppose.\nWhat comes after, no one can say.\"",
                     "addStringTerminator": true
                 },
                 {
@@ -2409,7 +2410,7 @@
                 {
                     "length": 130,
                     "source": "NA",
-                    "translation": "",
+                    "translation": " \n\"Let me show you your past and future.\"\n\"The past reveals the causes.......\n.....the future, the fate that awaits.\n        Now, which would you see?\"",
                     "addStringTerminator": true
                 },
                 {
@@ -2422,121 +2423,121 @@
                 {
                     "length": 203,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"People take me for a kindly sort, but\nI do follow the tenets of evil, you know.\nIf a healer had a fearsome face, the\ninjured would be too scared to get better.\nThe years crept up on me somehow, but I\nwork all the better for it. What say you?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 158,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I'm young, but I rolled lots of bonus\npoints, so I became a Bishop. Really!\nI don't know many spells, though.\nBut I'm lucky, so people always ask me\nto identify things. No curses so far!\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 157,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I tired of adventuring and took to drink.\nLately my money's been running dry.\nI'd like to join you and earn my bar tab.\nIf I'm about to die, feel free to leave\nme behind. I've made my peace with it.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 136,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"My master has gone missing and I'm\nsearching for him. Where can he be?\nI want to join you and look for him.\nIt's all right if we never find him.\nI just want to be stronger when we\nmeet again someday.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 156,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"You need help, don't you? Don't worry,\nI'll live up to your hopes, no question.\nMy strength and stamina are above average.\nIf I have a weakness, it's my head...\nNever mind that. Will you let me join?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 157,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Hello! Pardon me for sitting on the table.\nI'm so small, I thought I'd better get\nwhere you could see me.\nI'm not fond of bother, but I'll be\ncareful not to get in your way.\nYou won't regret it. Let me join you!\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 185,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Hey, how are you? I've just come back to\nGaness after a long time away. Some new\ntrouble has come up here, so I was dragged\nback in the middle of a journey. And now\nmy old comrades are all dead. Even someone\nlike me wants to help my homeland\nin its hour of need.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 178,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I hail from the Land of the Rising Sun,\na small land, but birthplace of the samurai\nand ninja. My sword is first-rate, but\nI hate a fuss. Think of me as just the\nrescue crew for the missing, if you would.\nMind, I gave up the samurai spirit\nlong ago...\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 173,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I am a ninja, I am, believe it or not!\nA failed one, but I shall train harder\nand become a master, I shall. Strangely,\nwhile I was playing with a certain item,\na hidden power awoke in me. Truth is,\nI was once a petty thief, I was.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 166,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I'm Honey, and my charm is my catlike\nquickness. I do like to be pampered, but\nmy claws are sharp, so be careful!\nI don't owe you anything, but I owe the\nKing for taking me in. I thought I might\nhelp you out and repay him. Well?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 183,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I love to sing, and I'm handy with any\ninstrument. The tunes played here in the\ntavern? I wrote them. I love adventure too,\nand to sharpen my senses I'd like to travel\nwith you. What do you say? These nimble\nfingers can play any instrument at all.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 165,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I'm of noble birth, believe it or not.\nMinor nobility, but still, my ancestors\nwere famous in Llylgamyn City.\nNot that it counts for much in this town,\nbut I do have money. Just don't take it\nand say 'Thanks, bye!', all right?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 177,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I'm a Valkyrie, a female Lord, you might\nsay. I was raised in a family of old and\nnoble lineage. Sadly, some rich brat from\na certain town pressed me to marry him,\nso I ran away. I brought what gear I could\ncarry, but I sold my weapon for money.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 180,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Hey now, don't judge me by my face.\nI only just turned good, you know.\nMy level's low, but my vitality is high.\nMy mug means I've few friends, but I\nlearn quick. How about it, let me join?\nI can back you up from the rear.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 165,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Psionic spells are hard. I've struggled\nto learn them, and grown old doing it.\nBut once I master these, other spells\nshould be a breeze. Mind, it's hard to\nchange careers at my age. Care to put my\nhard-won psionics to use?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 144,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I'm a priest, in active service. Rotten\npersonality, but my skills are the real\ndeal! As a healing and curing specialist,\nI'll be useful to you. My only flaw is my\nlow vitality. Well? Let me adventure\nwith you.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 161,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I was born into a line of Monks in a land\nof martial artists, and I'm traveling to\nhone my skills. Something troubling seems\nto be stirring in this land. I don't know\nthese parts well, so I hope you will guide\nme. I look forward to working with you.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 151,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"Well, hello. You want to hear about me?\nI love beautiful things more than anything.\nI heard there's a monster in the labyrinth\nmore beautiful than me, and I want to go\nwith you to see for myself.\nI won't insist, but how about it?\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 189,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I'm only a novice, but I am a Bishop,\na cleric. People shun me for my manner,\nbut I'm proud of my ability. You need\nsomeone to appraise items, don't you?\nI dislike danger, so I'll wait here in\nthe tavern for the items you bring back.\"",
                     "addStringTerminator": true
                 },
                 {
                     "length": 144,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "\"I was born a bit feeble, so I seem better\nsuited to Alchemy than fighting. I love\nreading, so I don't mind a little boredom.\nBy the way, I was studying to be a priest\nuntil just now, so I know a few spells.\"",
                     "addStringTerminator": true
                 },
                 {
@@ -3630,7 +3631,7 @@
                 {
                     "length": 1,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "-",
                     "addStringTerminator": true
                 },
                 {
@@ -3762,7 +3763,7 @@
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "{ff23}PH",
                     "addStringTerminator": true
                 },
                 {
@@ -3966,25 +3967,25 @@
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "Japanese",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "English",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "Stereo",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "",
+                    "translation": "Mono",
                     "addStringTerminator": true
                 },
                 {
