@@ -9,421 +9,421 @@
                 {
                     "length": 14,
                     "source": "NA",
-                    "translation": "Gilgamesh's Tavern",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 11,
                     "source": "NA",
-                    "translation": "Recruiting Members",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 9,
                     "source": "NA",
-                    "translation": "Add Companion",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Decline",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Listen further",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 3,
                     "source": "NA",
-                    "translation": "End",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 2,
                     "source": "NA",
-                    "translation": "Yes",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 3,
                     "source": "NA",
-                    "translation": "No",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Inn",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "The Stables        (Free)",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "A Cot              10G／W",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 21,
                     "source": "NA",
-                    "translation": "Economy Rooms      50G／W",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 21,
                     "source": "NA",
-                    "translation": "Merchant Suites   200G／W",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 21,
                     "source": "NA",
-                    "translation": "The Royal Suite   500G／W",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 22,
                     "source": "NA",
-                    "translation": "Special Room    10000G／W",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Boltac's Trading Post",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Weapons",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 2,
                     "source": "NA",
-                    "translation": "Armor",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 2,
                     "source": "NA",
-                    "translation": "Shields",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 2,
                     "source": "NA",
-                    "translation": "Headwear",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Gloves",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Footwear",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Instruments",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Miscellany",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 2,
                     "source": "NA",
-                    "translation": "Swords",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 2,
                     "source": "NA",
-                    "translation": "Katana",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Wands & Daggers",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 7,
                     "source": "NA",
-                    "translation": "Axes & Hammers",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Maces & Whips",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 2,
                     "source": "NA",
-                    "translation": "Staves",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 11,
                     "source": "NA",
-                    "translation": "Polearms",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 2,
                     "source": "NA",
-                    "translation": "Bows",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 8,
                     "source": "NA",
-                    "translation": "Throwing Weapons",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Leather Armor",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Robes",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Chainmail",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "Breastplates",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 8,
                     "source": "NA",
-                    "translation": "Plate Mail",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 2,
                     "source": "NA",
-                    "translation": "Shields",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 2,
                     "source": "NA",
-                    "translation": "Helms",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Hats",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Gloves",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Footwear",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Instruments",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 2,
                     "source": "NA",
-                    "translation": "Potions",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Scrolls",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 3,
                     "source": "NA",
-                    "translation": "Sets",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 3,
                     "source": "NA",
-                    "translation": "Ankhs",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Rings",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "Amulets",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Miscellany",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 7,
                     "source": "NA",
-                    "translation": "Temple of Cant",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Training Hall",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "City Outskirts",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 9,
                     "source": "NA",
-                    "translation": "Begin Adventure",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 11,
                     "source": "NA",
-                    "translation": "Resume Adventure",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 11,
                     "source": "NA",
-                    "translation": "Save Game",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 12,
                     "source": "NA",
-                    "translation": "Make Preparations",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Enter Training Maze",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Back to Ganess",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 11,
                     "source": "NA",
-                    "translation": "Settings",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
@@ -436,97 +436,97 @@
                 {
                     "length": 9,
                     "source": "NA",
-                    "translation": "Items",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Monsters",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 9,
                     "source": "NA",
-                    "translation": "Spells",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "Menus",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Sound Mode",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Music",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 11,
                     "source": "NA",
-                    "translation": "Sounds",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Effects",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Help Messages",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 12,
                     "source": "NA",
-                    "translation": "Message Speed",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 7,
                     "source": "NA",
-                    "translation": "Autosave",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Viewpoint",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 13,
                     "source": "NA",
-                    "translation": "Status Bar",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 8,
                     "source": "NA",
-                    "translation": "Finish",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 13,
                     "source": "NA",
-                    "translation": "(EN／JPN)",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 11,
                     "source": "NA",
-                    "translation": "(Stereo／Mono)",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -538,139 +538,139 @@
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "(Always／Press SELECT)",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 16,
                     "source": "NA",
-                    "translation": "(1 2 3 4 5 Stop)",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 8,
                     "source": "NA",
-                    "translation": "Memory Card",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "Slot 1",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "Slot 2",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 9,
                     "source": "NA",
-                    "translation": "{ff24}Purchase",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 9,
                     "source": "NA",
-                    "translation": "{ff24}Vend",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 12,
                     "source": "NA",
-                    "translation": "{ff24}Dispel Curse",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 12,
                     "source": "NA",
-                    "translation": "{ff24}Identify",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "{ff24}End",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 12,
                     "source": "NA",
-                    "translation": "{ff24}View Spells",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 13,
                     "source": "NA",
-                    "translation": "{ff24}Equip",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "{ff24}Trade",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "{ff24}Discard",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "{ff24}Pool Gold",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 12,
                     "source": "NA",
-                    "translation": "{ff24}Cast Spell",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 8,
                     "source": "NA",
-                    "translation": "{ff24}Equip",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "{ff24}Item",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "{ff24}Pool Gold",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 9,
                     "source": "NA",
-                    "translation": "{ff24}Back",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "{ff24}Use",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "{ff24}Trade",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "{ff24}Discard",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -718,7 +718,7 @@
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "{ff23}redneG",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -934,7 +934,7 @@
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "{ff24}Deaths",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -1246,7 +1246,7 @@
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "{ff23}muirileD",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -1312,7 +1312,7 @@
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "{ff24}Delirium",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -1708,7 +1708,7 @@
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "Fofisc",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -2494,68 +2494,68 @@
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Attack",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "Defend",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 5,
                     "source": "NA",
-                    "translation": "Magic",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Dispel",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Item",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Flee",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Ambush",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Hide",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Breath",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 13,
                     "source": "NA",
-                    "translation": "Confirm actions?",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 7,
                     "source": "NA",
-                    "translation": "Yes／{tab_4}No",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -2585,588 +2585,588 @@
                 {
                     "length": 31,
                     "source": "NA",
-                    "translation": "Lulls one enemy group to sleep.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 20,
                     "source": "NA",
-                    "translation": "1-8 Fire damage to one enemy.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "Shows a map of the current floor.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 24,
                     "source": "NA",
-                    "translation": "Deals 1-8 Fire damage to an enemy group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "-2 AC for one ally.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 36,
                     "source": "NA",
-                    "translation": "+2 AC for an enemy group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 33,
                     "source": "NA",
-                    "translation": "+4 AC for an enemy group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "Deals 4-24 Fire Damage to an enemy group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 33,
                     "source": "NA",
-                    "translation": "Raises party's resistance to enemy spells.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 22,
                     "source": "NA",
-                    "translation": "Deals 24-58 Lightning damage to one enemy.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "Deals 6-58 Fire damage to an enemy group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 36,
                     "source": "NA",
-                    "translation": "Party floats over traps for a long while.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 28,
                     "source": "NA",
-                    "translation": "Summons a demon to fight for the party.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "Deals 8-64 Cold damage to an enemy group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 39,
                     "source": "NA",
-                    "translation": "Null zone makes enemy spells likely to fizzle.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 28,
                     "source": "NA",
-                    "translation": "Deal 1-1000 damage to one Undead enemy.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 26,
                     "source": "NA",
-                    "translation": "Deals 44-98 Cold damage to an enemy group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 22,
                     "source": "NA",
-                    "translation": "Deals 64-80 Lightning damage to one enemy.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 36,
                     "source": "NA",
-                    "translation": "Warp to a known tile. In battle, random warp.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 34,
                     "source": "NA",
-                    "translation": "Invoke a powerful miracle, but lose one level.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 24,
                     "source": "NA",
-                    "translation": "Blasts all enemies for 10-150 damage.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 24,
                     "source": "NA",
-                    "translation": "Restores 1-8 HP to one ally.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 19,
                     "source": "NA",
-                    "translation": "Deals 1-8 damage to one enemy.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 23,
                     "source": "NA",
-                    "translation": "Magic armor grants -4AC for caster",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 31,
                     "source": "NA",
-                    "translation": "Detect chest traps. Rarely mistaken.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 29,
                     "source": "NA",
-                    "translation": "Silences enemies in one group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 31,
                     "source": "NA",
-                    "translation": "Divines the location of a lost ally.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 30,
                     "source": "NA",
-                    "translation": "Identifies enemies for a long while.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 34,
                     "source": "NA",
-                    "translation": "Cures one ally of Paralysis.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "-3AC for the party.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "Restores 2-16 HP to one ally.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 28,
                     "source": "NA",
-                    "translation": "Cures one ally of Poison.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 36,
                     "source": "NA",
-                    "translation": "-2 AC for the party for a long while.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "Restores 3-24 HP to one ally.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 27,
                     "source": "NA",
-                    "translation": "Attempts to stop one enemy's heart.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 26,
                     "source": "NA",
-                    "translation": "Summons the undead to fight for the party.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 36,
                     "source": "NA",
-                    "translation": "Fully heals an ally (unless Dead or Ash).",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "Drains almost all HP from one enemy.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 36,
                     "source": "NA",
-                    "translation": "Banishes one demon whence they came.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 33,
                     "source": "NA",
-                    "translation": "Cures Dead&Ash and fully heals one ally.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "Stops the hearts of one enemy group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 30,
                     "source": "NA",
-                    "translation": "Restores 30-60HP to all allies.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 34,
                     "source": "NA",
-                    "translation": "Party attack power↑ for a short time.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 34,
                     "source": "NA",
-                    "translation": "Deals damage based on 1/2 of HP.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 37,
                     "source": "NA",
-                    "translation": "-1 AC and +1 strike for one ally.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 33,
                     "source": "NA",
-                    "translation": "1-4 lingering Fire damage to a group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 26,
                     "source": "NA",
-                    "translation": "Reduces enemy spell resistance.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "Clears damaging clouds from party.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 31,
                     "source": "NA",
-                    "translation": "2-8 lingering Cold damage to a group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 22,
                     "source": "NA",
-                    "translation": "Toxic dust puts all enemies to sleep.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 37,
                     "source": "NA",
-                    "translation": "Party attack power↑ for a long while.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 34,
                     "source": "NA",
-                    "translation": "3-12 lingering Poison damage to a group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 40,
                     "source": "NA",
-                    "translation": "Adds to spell resistance for a long while.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "Reflects enemy spells for 3 turns.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "4-20 lingering Fire damage to a group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 24,
                     "source": "NA",
-                    "translation": "Creates a monster to fight for the party.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 39,
                     "source": "NA",
-                    "translation": "Cures party of nonfatal ailments.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "5-40 lingering Poison damage to a group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "Fully restores on ally's HP.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 24,
                     "source": "NA",
-                    "translation": "Cremates a group of low-level monsters.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 23,
                     "source": "NA",
-                    "translation": "Bombs an enemy for 80-130 damage.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "Safely opens a chest or door.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "4-60 lingering Cold damage to a group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 28,
                     "source": "NA",
-                    "translation": "Deals 1-10 mental damage to one enemy.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 24,
                     "source": "NA",
-                    "translation": "Restores 2-6 HP to one ally.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 34,
                     "source": "NA",
-                    "translation": "-1 AC to party, +1 AC to enemies.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "Deals 2-10 mental damage to an enemy group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 33,
                     "source": "NA",
-                    "translation": "Helps detect hidden things for a long while.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 28,
                     "source": "NA",
-                    "translation": "Divine the contents of the tile just ahead.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 36,
                     "source": "NA",
-                    "translation": "Hypnotizes an enemy group to stop action.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 34,
                     "source": "NA",
-                    "translation": "-2 AC to party, +2 AC to enemies.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 35,
                     "source": "NA",
-                    "translation": "Hides caster, allowing them to Ambush.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "Deals 2-16 mental damage to an enemy group.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "Strengthens the party's offensive spells.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 27,
                     "source": "NA",
-                    "translation": "Lowers an enemy group's attack power.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 31,
                     "source": "NA",
-                    "translation": "Conjures a living illusion to fight for you.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 34,
                     "source": "NA",
-                    "translation": "Warp to Ganess, but party inventory is lost.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 22,
                     "source": "NA",
-                    "translation": "Deals 36-64 Cold damage to one enemy.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 23,
                     "source": "NA",
-                    "translation": "Identify an unknown item.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "Restores 6-18 HP to all allies.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 25,
                     "source": "NA",
-                    "translation": "Psionic arrows deal 8-64 damage to one enemy.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 32,
                     "source": "NA",
-                    "translation": "12-48 damage and ailments to all enemies.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 29,
                     "source": "NA",
-                    "translation": "Deals 9-72 mental damage to all enemies.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
                 {
                     "length": 30,
                     "source": "NA",
-                    "translation": "Grants a special boon to one ally.",
+                    "translation": "",
                     "compress": true,
                     "addStringTerminator": true
                 },
@@ -3911,7 +3911,7 @@
                 {
                     "length": 15,
                     "source": "NA",
-                    "translation": "{ff30}C{ff10}40{ff30}0／Deli",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {

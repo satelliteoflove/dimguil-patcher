@@ -10,97 +10,97 @@
                 {
                     "length": 16,
                     "source": "NA",
-                    "translation": "Select a category.",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 17,
                     "source": "NA",
-                    "translation": "Select a monster.",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Giant",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Mythical",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Dragon",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Animal",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Lycanthrope",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Undead",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Demon",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Insect",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
-                    "length": 10,//magical life-form
+                    "length": 10,
                     "source": "NA",
-                    "translation": "Chimeric",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
-                    "length": 9,//Mysterious life-form
+                    "length": 9,
                     "source": "NA",
-                    "translation": "Artifice",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Fighter",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 8,
                     "source": "NA",
-                    "translation": "Mage",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Thief",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
                     "length": 6,
                     "source": "NA",
-                    "translation": "Priest",
+                    "translation": "",
                     "addStringTerminator": true
                 }
             ]
@@ -2622,7 +2622,7 @@
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Web Spinner",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -3078,7 +3078,7 @@
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Reaver Lord",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -3198,7 +3198,7 @@
                 {
                     "length": 11,
                     "source": "NA",
-                    "translation": "Allosaurus",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -3210,7 +3210,7 @@
                 {
                     "length": 9,
                     "source": "NA",
-                    "translation": "Dragonaire",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -3328,21 +3328,21 @@
                     "addStringTerminator": true
                 },
                 {
-                    "length": 9,//Jaguar Warrior
+                    "length": 9,
                     "source": "NA",
-                    "translation": "Ocelotl",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
-                    "length": 10,//For "Dog" in Nahuatl
+                    "length": 10,
                     "source": "NA",
-                    "translation": "Itzcuintli",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
-                    "length": 8,//For Eagle in Nahuatl
+                    "length": 8,
                     "source": "NA",
-                    "translation": "Cuautli",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -3414,7 +3414,7 @@
                 {
                     "length": 9,
                     "source": "NA",
-                    "translation": "Jailed Ogre",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -3634,7 +3634,7 @@
                     "addStringTerminator": true
                 },
                 {
-                    "length": 14,//NOTE give this a name that flows better? Sorcerabbit (no thanks)?
+                    "length": 14,
                     "source": "NA",
                     "translation": "",
                     "addStringTerminator": true
@@ -3664,7 +3664,7 @@
                     "addStringTerminator": true
                 },
                 {
-                    "length": 9,//change to "Dragonaire"?
+                    "length": 9,
                     "source": "NA",
                     "translation": "",
                     "addStringTerminator": true
@@ -3946,7 +3946,7 @@
                     "addStringTerminator": true
                 },
                 {
-                    "length": 10,//alternatively Iquib Balalm, Ikí Balam, Ik'i B'alam
+                    "length": 10,
                     "source": "NA",
                     "translation": "",
                     "addStringTerminator": true
@@ -4060,7 +4060,7 @@
                     "addStringTerminator": true
                 },
                 {
-                    "length": 4,//NOTE think more about this - "ララ"
+                    "length": 4,
                     "source": "NA",
                     "translation": "",
                     "addStringTerminator": true
@@ -4102,7 +4102,7 @@
                     "addStringTerminator": true
                 },
                 {
-                    "length": 12,//NOTE more of a were-spider, but the JPN name is clear...
+                    "length": 12,
                     "source": "NA",
                     "translation": "",
                     "addStringTerminator": true
@@ -4132,7 +4132,7 @@
                     "addStringTerminator": true
                 },
                 {
-                    "length": 4,//NOTE should this be punched up a little?
+                    "length": 4,
                     "source": "NA",
                     "translation": "",
                     "addStringTerminator": true
@@ -4294,9 +4294,9 @@
                     "addStringTerminator": true
                 },
                 {
-                    "length": 10,//NOTE taking creative liberties with this one
+                    "length": 10,
                     "source": "NA",
-                    "translation": "Flame Hound",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -4392,7 +4392,7 @@
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Reaver Lord",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -4566,7 +4566,7 @@
                 {
                     "length": 10,
                     "source": "NA",
-                    "translation": "Old Drummer",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
@@ -4716,7 +4716,7 @@
                 {
                     "length": 9,
                     "source": "NA",
-                    "translation": "Hobgoblin",
+                    "translation": "",
                     "addStringTerminator": true
                 },
                 {
