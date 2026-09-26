@@ -3979,13 +3979,13 @@
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Stereo",
+                    "translation": "Str",
                     "addStringTerminator": true
                 },
                 {
                     "length": 4,
                     "source": "NA",
-                    "translation": "Mono",
+                    "translation": "Mon",
                     "addStringTerminator": true
                 },
                 {
